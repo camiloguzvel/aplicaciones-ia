@@ -1,0 +1,245 @@
+[
+ {
+  "id": "claude-code",
+  "nombre": "Claude Code",
+  "empresa": "Anthropic",
+  "que_es": "Agente de programación de Anthropic que lee el repositorio, edita archivos, ejecuta comandos y coordina subagentes. Se usa en la terminal (CLI), en extensiones de IDE como VS Code, en la app de escritorio, en la web y el móvil (sesiones en la nube y Remote Control) y en Slack mediante Claude Tag.",
+  "para_quien": "Desarrolladores y equipos de ingeniería, y cada vez más perfiles no técnicos que construyen software o automatizan tareas desde la terminal.",
+  "fortalezas": [
+   "Orquestación de subagentes en segundo plano, modo fork y flujos dinámicos con decenas o cientos de agentes",
+   "Modo auto: un clasificador sustituye las peticiones de permiso y bloquea acciones destructivas",
+   "Ecosistema extensible: plugins, skills, hooks y conectores MCP (p. ej., el plugin oficial de Mercado Pago)",
+   "Migraciones y refactorizaciones grandes guiadas por bucles de verificación con tests"
+  ],
+  "limites": [
+   "El código generado sigue necesitando revisión: la migración de Bun a Rust dejó 19 regresiones tras el merge",
+   "Coste y límites de uso por plan; los modelos de gama alta (Fable 5.2: 8/40 USD por millón de tokens) encarecen el uso intensivo",
+   "Las ganancias de productividad son difíciles de medir con rigor (METR, 2026)"
+  ],
+  "novedades": [
+   {
+    "fecha": "2026-11-20",
+    "texto": "v2.1.330: inicio de sesión en organizaciones gestionadas desde Enterprise Admin Console, y tareas programadas y /loop de hasta 30 días.",
+    "url": "https://code.claude.com/docs/en/changelog"
+   },
+   {
+    "fecha": "2026-11-12",
+    "texto": "v2.1.323: Code Mode experimental (Claude escribe JavaScript para llamar a sus herramientas) y sesiones de Claude Tag iniciadas en Slack visibles en la Compliance API (beta).",
+    "url": "https://code.claude.com/docs/en/changelog"
+   },
+   {
+    "fecha": "2026-11-09",
+    "texto": "v2.1.321: Claude Fable 5.2 pasa a ser el modelo Fable por defecto, con 1M de tokens de contexto y precio de 8/40 USD por millón de tokens.",
+    "url": "https://code.claude.com/docs/en/changelog"
+   },
+   {
+    "fecha": "2026-09-07",
+    "texto": "Semana 37: 'claude plugin eval' ejecuta casos de prueba sobre un plugin y lo compara con una línea base sin plugin.",
+    "url": "https://code.claude.com/docs/en/whats-new/2026-w37"
+   }
+  ],
+  "patrones_de_uso": [
+   {
+    "titulo": "Migración de lenguaje con bucle de verificación",
+    "descripcion": "Se definen reglas de migración y una batería de tests como criterio de paridad; los agentes traducen, compilan y prueban hasta igualar el comportamiento original (p. ej., Bun de Zig a Rust)."
+   },
+   {
+    "titulo": "Equipo de subagentes especializados",
+    "descripcion": "El usuario define subagentes con roles (arquitecto, desarrollador, revisor) que trabajan en paralelo sobre módulos distintos y los coordina desde una sesión principal."
+   },
+   {
+    "titulo": "Revisión automática de código a escala",
+    "descripcion": "Se usa /code-review o ultrareview en local y en CI para detectar errores antes del merge, con un humano que aprueba el resultado."
+   },
+   {
+    "titulo": "Trabajo desatendido programado",
+    "descripcion": "Con /goal, /loop, rutinas y tareas programadas, Claude sigue trabajando hasta cumplir una condición o se lanza ante eventos de GitHub o un horario."
+   },
+   {
+    "titulo": "Integraciones vía plugins y MCP",
+    "descripcion": "Empresas publican plugins (como mercadopago-claude-marketplace) para que el agente genere, audite y conecte integraciones desde la terminal."
+   }
+  ],
+  "enlaces": [
+   {
+    "nombre": "Changelog oficial",
+    "url": "https://code.claude.com/docs/en/changelog"
+   },
+   {
+    "nombre": "Novedades semanales (What's new)",
+    "url": "https://code.claude.com/docs/en/whats-new"
+   },
+   {
+    "nombre": "Guía de migraciones de código con Claude Code",
+    "url": "https://claude.com/blog/ai-code-migration"
+   },
+   {
+    "nombre": "Anuncio de Claude Tag (Slack)",
+    "url": "https://www.anthropic.com/news/introducing-claude-tag"
+   }
+  ],
+  "actualizado": "2026-11-23"
+ },
+ {
+  "id": "kimi",
+  "nombre": "Kimi",
+  "empresa": "Moonshot AI",
+  "que_es": "Familia de modelos de pesos abiertos (K2.x, K3, K3.1 Pro) y de productos de Moonshot AI: el asistente Kimi (web y app), Kimi Work (agente de escritorio para Mac y Windows con modos Agent y Agent Swarm), Kimi Code (agente de programación para terminal e IDE) y la API de Kimi, compatible con las interfaces de OpenAI y Anthropic.",
+  "para_quien": "Desarrolladores y empresas que buscan un modelo de frontera abierto y barato, y trabajadores del conocimiento (finanzas, diseño 3D, investigación) que delegan tareas largas en agentes.",
+  "fortalezas": [
+   "Pesos abiertos de escala frontera: Kimi K3.1 Pro (clase 3T) con 1M de tokens de contexto, publicado en Hugging Face",
+   "Fuerte en tareas agénticas largas, programación, investigación financiera y modelado 3D paramétrico",
+   "API compatible con OpenAI y Anthropic: se puede usar dentro de Claude Code u otros arneses",
+   "Coste por token bastante menor que el de los modelos cerrados comparables, según las pruebas de terceros"
+  ],
+  "limites": [
+   "Autoalojarlo exige mucho hardware: los pesos de K3 rondan 1,4 TB y requieren varios servidores con GPU H100/B200",
+   "La licencia es propia (Modified MIT / 'other'), con obligaciones de atribución para productos grandes",
+   "Las restricciones regulatorias y de datos sobre la IA de origen chino limitan su uso en algunos sectores y gobiernos"
+  ],
+  "novedades": [
+   {
+    "fecha": "2026-11-04",
+    "texto": "Moonshot publica los pesos de Kimi K3.1 Pro en Hugging Face (repositorio moonshotai/Kimi-K3.1-Pro, licencia propia).",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+   },
+   {
+    "fecha": "2026-10-23",
+    "texto": "Lanzamiento de Kimi K3.1 Pro y K3.1 Pro Highspeed (2-3 veces más rápido) en Kimi.com, Kimi Work, Kimi Code y la API, con mejoras en programación, 3D y finanzas, y capacidades ciber limitadas a propósito.",
+    "url": "https://kimi.com/en/blog/kimi-k3-1-pro"
+   },
+   {
+    "fecha": "2026-09-17",
+    "texto": "Solución de Kimi para el sector financiero: más de 10 fuentes de datos, 9 skills financieras y 5 medidas de cumplimiento, con pilotos en decenas de instituciones.",
+    "url": "https://www.kimi.com/news/kimi-financial-industry-ai-solution"
+   },
+   {
+    "fecha": "2026-07-16",
+    "texto": "Kimi K3: modelo abierto de unos 2,8 billones de parámetros con visión nativa y 1M de tokens de contexto, disponible en Kimi Work, Kimi Code y la API.",
+    "url": "https://english.beijing.gov.cn/latest/news/202607/t20260718_4769700.html"
+   }
+  ],
+  "patrones_de_uso": [
+   {
+    "titulo": "Kimi como motor dentro de Claude Code",
+    "descripcion": "Se apunta Claude Code al endpoint compatible con Anthropic (directo u OpenRouter) para conservar la interfaz y pagar menos por token, revisando las llamadas a herramientas que fallen."
+   },
+   {
+    "titulo": "Agentes de alto volumen sobre infraestructura propia o de terceros",
+    "descripcion": "Se sirve el modelo abierto en plataformas como Cloudflare Workers AI o Fireworks para agentes que consumen miles de millones de tokens al día."
+   },
+   {
+    "titulo": "Modelo base para entrenar modelos propios",
+    "descripcion": "Equipos parten de los pesos abiertos y añaden preentrenamiento continuo y RL con sus propios datos (caso de Cursor Composer)."
+   },
+   {
+    "titulo": "Agentes de investigación y modelado financiero",
+    "descripcion": "Con Kimi Work y skills financieras se automatizan modelos en Excel, informes de research y borradores regulatorios, y un analista revisa el resultado."
+   },
+   {
+    "titulo": "Diseño 3D paramétrico",
+    "descripcion": "A partir de texto, un boceto o una imagen, K3.1 Pro genera scripts para Blender o CAD, y 3D Make permite editar los modelos y exportarlos para impresión 3D."
+   }
+  ],
+  "enlaces": [
+   {
+    "nombre": "Blog técnico de Kimi K3.1 Pro",
+    "url": "https://kimi.com/en/blog/kimi-k3-1-pro"
+   },
+   {
+    "nombre": "Guía rápida de la API (K3.1 Pro)",
+    "url": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart"
+   },
+   {
+    "nombre": "Kimi Work: descripción general",
+    "url": "https://www.kimi.com/help/kimi-work/overview"
+   },
+   {
+    "nombre": "Pesos en Hugging Face",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+   }
+  ],
+  "actualizado": "2026-11-23"
+ },
+ {
+  "id": "deepseek",
+  "nombre": "DeepSeek",
+  "empresa": "DeepSeek (Hangzhou DeepSeek AI)",
+  "que_es": "Laboratorio chino de modelos de pesos abiertos (familias V4 y V4.1) con app de chat (web y móvil) y una API compatible con ChatCompletions de OpenAI, Messages de Anthropic y Responses. Desde noviembre de 2026 su API también ofrece las funciones de la app (búsqueda web, archivos, lectura de URL, OCR, ASR y TTS), y en 2026 publicó DeepSeek Harness, un arnés de agentes de código abierto.",
+  "para_quien": "Desarrolladores, startups e instituciones que necesitan un modelo capaz y muy barato o desplegable en local por privacidad (p. ej., hospitales).",
+  "fortalezas": [
+   "Precio muy bajo por token, con tarifa fuera de hora punta al 50%",
+   "Pesos abiertos en Hugging Face (V4.1-Flash: MoE de 552B con 8B/16B parámetros activos y visión nativa)",
+   "Compatibilidad con la API de Anthropic: puede servir de motor dentro de Claude Code",
+   "1M de tokens de contexto y una caché KV comprimida que abarata los agentes de larga duración"
+  ],
+  "limites": [
+   "Precios y modelos cambian rápido: en agosto de 2026 subió más de 4 veces el precio en hora punta de V4-Pro y en septiembre redirigió V4-Pro a V4.1-Flash",
+   "Salvaguardas débiles ante prompts adversarios en uso clínico (en un estudio de JMIR, R1 generó desinformación médica en el 98% de los casos)",
+   "Preocupaciones de privacidad y restricciones regulatorias en varios países sobre su app y su API"
+  ],
+  "novedades": [
+   {
+    "fecha": "2026-11-13",
+    "texto": "API 'full-suite': búsqueda web, búsqueda con razonamiento, archivos, lectura de URL y filtros de seguridad integrados en deepseek-flash, más APIs sueltas de OCR, ASR y TTS y una demo de chat de código abierto.",
+    "url": "https://api-docs.deepseek.com/news/news261113"
+   },
+   {
+    "fecha": "2026-10-17",
+    "texto": "Actualización DeepSeek-V4.1-Flash-1017 (mismo precio) y apertura de su API de búsqueda propia.",
+    "url": "https://api-docs.deepseek.com/updates/"
+   },
+   {
+    "fecha": "2026-09-10",
+    "texto": "DeepSeek-V4.1-Flash: nueva arquitectura con visión nativa, caché KV con 1/4 de la HBM y precios más bajos; V4-Pro se redirige a V4.1-Flash hasta que salga V4.1-Pro.",
+    "url": "https://api-docs.deepseek.com/news/news260910"
+   },
+   {
+    "fecha": "2026-08-13",
+    "texto": "Versión GA de DeepSeek-V4-Pro en la app, la web y la API, con mejores capacidades de agente y soporte nativo de la Responses API.",
+    "url": "https://api-docs.deepseek.com/updates/"
+   }
+  ],
+  "patrones_de_uso": [
+   {
+    "titulo": "DeepSeek como motor de Claude Code",
+    "descripcion": "Se configuran ANTHROPIC_BASE_URL y la clave de DeepSeek (o el shim DeepClaude) para usar la interfaz de Claude Code con un modelo mucho más barato."
+   },
+   {
+    "titulo": "Despliegue local en hospitales",
+    "descripcion": "Los hospitales chinos instalan DeepSeek en su propia infraestructura para apoyar el diagnóstico y redactar historias clínicas sin sacar datos fuera, con validación médica."
+   },
+   {
+    "titulo": "Procesamiento masivo en horas valle",
+    "descripcion": "Las cargas flexibles (resúmenes, extracción, evaluación) se programan fuera de hora punta para pagar la mitad."
+   },
+   {
+    "titulo": "Aplicaciones de chat con herramientas integradas",
+    "descripcion": "Se activan con parámetros la búsqueda web, la lectura de URL y los archivos, o se combinan las APIs sueltas de OCR, ASR y TTS, para recrear la experiencia de la app."
+   },
+   {
+    "titulo": "Arnés de agentes abierto",
+    "descripcion": "DeepSeek Harness (licencia MIT) sirve de alternativa abierta a la infraestructura de agentes de Claude Code o Codex, y DeepSeek lo usa en sus propias evaluaciones."
+   }
+  ],
+  "enlaces": [
+   {
+    "nombre": "Changelog oficial de la API",
+    "url": "https://api-docs.deepseek.com/updates/"
+   },
+   {
+    "nombre": "Anuncio de la API full-suite",
+    "url": "https://api-docs.deepseek.com/news/news261113"
+   },
+   {
+    "nombre": "Pesos de DeepSeek-V4.1-Flash",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+   },
+   {
+    "nombre": "DeepSeek Harness (cobertura VentureBeat)",
+    "url": "https://venturebeat.com/ai/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices/"
+   }
+  ],
+  "actualizado": "2026-11-23"
+ }
+]

@@ -1,0 +1,1678 @@
+[
+ {
+  "id": "nubank-simulacion-agentes-cx",
+  "titulo": "Nubank prueba sus agentes de atención con clientes sintéticos antes de producción",
+  "resumen": "Nubank, junto con Guardrails AI y su simulador Snowglobe, evaluó configuraciones de modelos en más de 16.000 conversaciones simuladas con clientes sintéticos antes de exponerlas a clientes reales. El tiempo de desarrollo de una nueva versión de agente bajó de 21,2 a 4,4 días y el agente de gestión de tarjetas mejorado se desplegó a su base de clientes en Brasil.",
+  "por_que_importa": "Convierte la evaluación de agentes conversacionales en un filtro previo sistemático en lugar de una prueba en vivo con clientes reales.",
+  "como_aplicarlo": "Un equipo de atención puede construir personas sintéticas y respuestas de herramientas simuladas para cribar cada cambio de prompt o de modelo antes de liberarlo.",
+  "actor": "Nubank (con Guardrails AI)",
+  "nivel": "organizacion",
+  "industria": "finanzas",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "agentes",
+   "generativa"
+  ],
+  "madurez": "escala",
+  "evidencia": "medida",
+  "autonomia": "agente",
+  "region": "latam",
+  "fuente": {
+   "nombre": "FF News (sobre el paper «Screen Before You Serve», arXiv 2609.30137)",
+   "tipo": "medio",
+   "url": "https://ffnews.com/news/nubank-cuts-ai-agent-update-cycles-from-three-weeks-to-under-five-days-by-testin-240a1aeb"
+  },
+  "fecha_publicacion": "2026-11-09",
+  "relevancia": 78,
+  "etiquetas": [
+   "agentes",
+   "evaluación",
+   "atención al cliente",
+   "brasil"
+  ],
+  "url": "https://ffnews.com/news/nubank-cuts-ai-agent-update-cycles-from-three-weeks-to-under-five-days-by-testin-240a1aeb",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "barclays-claude-code-escala",
+  "titulo": "Barclays extiende Claude a ingeniería, mercados y soporte de usuarios",
+  "resumen": "Barclays amplió su colaboración con Anthropic para integrar Claude en sus operaciones globales: desarrollo de software, modernización de sistemas heredados y servicio a clientes. El banco espera que Claude Code alcance al 50 % de su población de desarrolladores a fines de 2026 y a la mayoría de sus ingenieros de software en 2027.",
+  "por_que_importa": "Señala el paso de pilotos a despliegue masivo de agentes de código dentro de un banco sistémico regulado.",
+  "como_aplicarlo": "Una organización con deuda técnica puede fijar metas anuales explícitas de adopción de agentes de código y empezar por la modernización de código heredado.",
+  "actor": "Barclays",
+  "nivel": "organizacion",
+  "industria": "finanzas",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "agentes",
+   "generativa"
+  ],
+  "madurez": "escala",
+  "evidencia": "reportada",
+  "autonomia": "agente",
+  "region": "europa",
+  "fuente": {
+   "nombre": "Anthropic",
+   "tipo": "frontier_lab",
+   "url": "https://anthropic.com/news/barclays-scales-claude"
+  },
+  "fecha_publicacion": "2026-10-01",
+  "relevancia": 66,
+  "etiquetas": [
+   "agentes de código",
+   "legacy",
+   "banca",
+   "reino unido"
+  ],
+  "url": "https://anthropic.com/news/barclays-scales-claude",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "bbva-chatgpt-enterprise-despliegue",
+  "titulo": "BBVA despliega ChatGPT Enterprise a unos 100.000 empleados en 25 países",
+  "resumen": "BBVA llevó ChatGPT Enterprise a cerca de 100.000 empleados, con más del 70 % de uso activo mensual y unas 3 horas semanales ahorradas por empleado según lo declarado por los propios usuarios, de acuerdo con el caso publicado por OpenAI. El banco anunció la ampliación a sus 120.000 empleados en 25 países, con herramientas para crear agentes internos conectados a sus sistemas, tras un piloto de 11.000 licencias.",
+  "por_que_importa": "Es uno de los despliegues de IA generativa más grandes en la banca del mundo hispanohablante, con métricas de adopción publicadas.",
+  "como_aplicarlo": "Escalar desde un piloto acotado midiendo el uso activo mensual antes de ampliar licencias, en lugar de comprar cobertura total de entrada.",
+  "actor": "BBVA",
+  "nivel": "organizacion",
+  "industria": "finanzas",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "escala",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "europa",
+  "fuente": {
+   "nombre": "OpenAI (caso de cliente BBVA)",
+   "tipo": "frontier_lab",
+   "url": "https://openai.com/es-419/index/bbva/"
+  },
+  "fecha_publicacion": "2026-06-11",
+  "relevancia": 62,
+  "etiquetas": [
+   "productividad",
+   "adopción",
+   "españa",
+   "banca"
+  ],
+  "url": "https://openai.com/es-419/index/bbva/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "bis-project-aise-supervision",
+  "titulo": "El BIS prueba IA para analítica de supervisión financiera en el Project AISE",
+  "resumen": "El BIS Innovation Hub, con el Toronto Centre, desarrolla el Project AISE, una prueba de concepto técnica sobre cómo los bancos centrales y supervisores pueden usar IA de forma responsable en analítica de supervisión, con herramientas para la supervisión en sitio, tareas de investigación y apoyo a la decisión. El proyecto, lanzado en abril de 2025 y marcado como en curso con última actualización del 15 de abril de 2026, se propone documentar qué funciona, qué sigue siendo difícil y qué gobernanza se necesita antes de experimentar con datos reales.",
+  "por_que_importa": "Define, desde un organismo multilateral, el marco de gobernanza con el que los supervisores financieros podrán usar IA sobre datos sensibles.",
+  "como_aplicarlo": "Un supervisor o un área de riesgos puede replicar el enfoque de prueba de concepto con datos sintéticos y documentación de gobernanza antes de tocar datos regulatorios reales.",
+  "actor": "BIS Innovation Hub y Toronto Centre",
+  "nivel": "gobierno",
+  "industria": "finanzas",
+  "modalidad": [
+   "texto",
+   "datos"
+  ],
+  "paradigma": [
+   "generativa",
+   "agentes"
+  ],
+  "madurez": "piloto",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "global",
+  "fuente": {
+   "nombre": "Banco de Pagos Internacionales (BIS)",
+   "tipo": "multilateral",
+   "url": "https://www.bis.org/about/bisih/topics/suptech_regtech/aise.htm"
+  },
+  "fecha_publicacion": "2026-04-15",
+  "relevancia": 60,
+  "etiquetas": [
+   "suptech",
+   "supervisión",
+   "gobernanza",
+   "multilateral"
+  ],
+  "url": "https://www.bis.org/about/bisih/topics/suptech_regtech/aise.htm",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "novartis-leqvio-seleccion-sitios",
+  "titulo": "Novartis pasa la selección de sitios de un ensayo de 14.000 pacientes a dos horas",
+  "resumen": "Novartis aplica IA desde 2023 en un ensayo cardiovascular de fase avanzada de Leqvio con 14.000 participantes. Según su director médico citado por Reuters, el proceso de selección de centros, que normalmente tomaba de cuatro a seis semanas, se convirtió en una reunión de dos horas, y el reclutamiento cerró con solo 13 pacientes por encima de la meta del ensayo.",
+  "por_que_importa": "Cuantifica dónde la IA sí está acortando plazos en la industria farmacéutica: la operación del ensayo, no el descubrimiento de la molécula.",
+  "como_aplicarlo": "Un equipo de desarrollo clínico puede usar modelos de desempeño histórico de centros para preseleccionar sitios y llevar a la reunión de decisión una lista ya priorizada.",
+  "actor": "Novartis",
+  "nivel": "organizacion",
+  "industria": "pharma",
+  "modalidad": [
+   "datos"
+  ],
+  "paradigma": [
+   "predictiva"
+  ],
+  "madurez": "produccion",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "europa",
+  "fuente": {
+   "nombre": "Reuters (Maggie Fick y Michael Erman), vía WHBL",
+   "tipo": "medio",
+   "url": "https://whbl.com/2026/01/26/drugmakers-turn-to-ai-speed-trials-regulatory-submissions/"
+  },
+  "fecha_publicacion": "2026-01-26",
+  "relevancia": 68,
+  "etiquetas": [
+   "ensayos clínicos",
+   "selección de sitios",
+   "operaciones",
+   "reclutamiento"
+  ],
+  "url": "https://whbl.com/2026/01/26/drugmakers-turn-to-ai-speed-trials-regulatory-submissions/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "insilico-rentosertib-relojes-proteomicos",
+  "titulo": "Fármaco diseñado con IA reduce relojes proteómicos de edad en un ensayo fase 2a",
+  "resumen": "Insilico Medicine analizó datos proteómicos de 42 participantes del ensayo de fase 2a de rentosertib, un inhibidor de TNIK descubierto y diseñado con IA generativa para la fibrosis pulmonar idiopática. Los seis relojes proteómicos de envejecimiento mostraron una menor edad biológica predicha en los grupos tratados, con 21 de 54 comparaciones por brazo estadísticamente significativas y mayor consistencia en la dosis de 30 mg dos veces al día; los autores advierten que los relojes no permiten separar por sí solos un efecto sobre el envejecimiento de la actividad antifibrótica.",
+  "por_que_importa": "El candidato diseñado con IA de punta a punta sigue generando evidencia clínica publicada en una revista revisada por pares, con sus limitaciones explícitas.",
+  "como_aplicarlo": "Un equipo de desarrollo clínico puede reanalizar muestras ya recogidas en sus propios ensayos con paneles ómicos para explorar indicaciones o biomarcadores secundarios sin montar un estudio nuevo.",
+  "actor": "Insilico Medicine",
+  "nivel": "organizacion",
+  "industria": "pharma",
+  "modalidad": [
+   "datos"
+  ],
+  "paradigma": [
+   "generativa",
+   "cientifica"
+  ],
+  "madurez": "piloto",
+  "evidencia": "revisada",
+  "autonomia": "asistente",
+  "region": "asia",
+  "fuente": {
+   "nombre": "News-Medical (sobre el artículo en Nature Biotechnology)",
+   "tipo": "medio",
+   "url": "https://news-medical.net/news/20260910/Rentosertib-shifts-multiple-proteomic-aging-clocks-toward-younger-age-profiles-in-IPF-trial.aspx"
+  },
+  "fecha_publicacion": "2026-09-10",
+  "relevancia": 72,
+  "etiquetas": [
+   "fármaco diseñado con ia",
+   "fibrosis pulmonar",
+   "proteómica",
+   "ensayo clínico"
+  ],
+  "url": "https://news-medical.net/news/20260910/Rentosertib-shifts-multiple-proteomic-aging-clocks-toward-younger-age-profiles-in-IPF-trial.aspx",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "coscientist-fibrosis-vorinostat",
+  "titulo": "Stanford valida en laboratorio fármacos propuestos por el AI co-scientist",
+  "resumen": "Gary Peltz (Stanford) pidió al sistema multiagente AI co-scientist de Google que propusiera fármacos ya aprobados para tratar la fibrosis hepática y los comparó con dos candidatos elegidos por él mismo. En pruebas sobre tejido hepático cultivado, dos propuestas de la IA redujeron la fibrosis y ninguna de las suyas lo hizo; la principal, el vorinostat, bloqueó el 91 % de una respuesta de daño asociada a la cicatrización hepática.",
+  "por_que_importa": "Es un caso concreto en el que las hipótesis de un agente científico superan a las de un experto humano en validación de laboratorio, aunque solo in vitro.",
+  "como_aplicarlo": "Un laboratorio académico puede usar agentes generadores de hipótesis para priorizar el reposicionamiento de fármacos y validar los primeros candidatos en organoides antes de pasar a modelos animales.",
+  "actor": "Gary Peltz, Universidad de Stanford (con Google DeepMind)",
+  "nivel": "individual",
+  "industria": "pharma",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "agentes",
+   "cientifica"
+  ],
+  "madurez": "piloto",
+  "evidencia": "revisada",
+  "autonomia": "asistente",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "Google DeepMind",
+   "tipo": "frontier_lab",
+   "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/"
+  },
+  "fecha_publicacion": "2026-05-19",
+  "relevancia": 70,
+  "etiquetas": [
+   "reposicionamiento",
+   "co-scientist",
+   "organoides",
+   "hipótesis"
+  ],
+  "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "uba-target-pathogen-antibioticos",
+  "titulo": "UBA y CONICET usan IA para buscar blancos y fármacos contra bacterias resistentes",
+  "resumen": "Un equipo liderado por Darío Fernández Do Porto (UBA/CONICET) desarrolla Target Pathogen 2.0, una plataforma bioinformática que incorpora IA para predecir blancos terapéuticos en bacterias y qué fármacos existentes o de diseño podrían unirse a ellos, con foco en neumonía y tuberculosis. El proyecto fue seleccionado entre 18 propuestas para integrar Gr-ADI, iniciativa de la Gates Foundation, la Novo Nordisk Foundation y Wellcome, en un consorcio con grupos de Brasil y Canadá, que se encarga de la validación experimental; según el investigador, el enfoque permite pasar de testear millones de moléculas a probar unas 100 con alta probabilidad de éxito.",
+  "por_que_importa": "Muestra a un grupo latinoamericano insertándose en el descubrimiento de antibióticos con IA mediante financiamiento filantrópico global y validación experimental compartida.",
+  "como_aplicarlo": "Los grupos académicos de la región pueden aportar su capacidad bioinformática a consorcios internacionales que cubran la validación de laboratorio que localmente resulta costosa.",
+  "actor": "Universidad de Buenos Aires / CONICET",
+  "nivel": "equipo",
+  "industria": "pharma",
+  "modalidad": [
+   "datos"
+  ],
+  "paradigma": [
+   "predictiva",
+   "cientifica"
+  ],
+  "madurez": "senal",
+  "evidencia": "anecdotica",
+  "autonomia": "asistente",
+  "region": "latam",
+  "fuente": {
+   "nombre": "UBA Ciencia",
+   "tipo": "academia",
+   "url": "https://www.uba.ar/ubaciencia/noticias/1012"
+  },
+  "fecha_publicacion": "2026-04-23",
+  "relevancia": 54,
+  "etiquetas": [
+   "antibióticos",
+   "resistencia antimicrobiana",
+   "argentina",
+   "bioinformática"
+  ],
+  "url": "https://www.uba.ar/ubaciencia/noticias/1012",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "ipd-miniproteinas-gpcr",
+  "titulo": "Diseño de novo de miniproteínas que controlan receptores GPCR, validado por cryo-EM",
+  "resumen": "El Institute for Protein Design (Universidad de Washington), con David Baker y Christoffer Norn, publicó en Nature el diseño computacional de miniproteínas dirigidas a receptores GPCR, junto con un tamizaje de alto rendimiento basado en microscopía. Reportaron moléculas líder funcionales, agonistas y antagonistas, contra 11 blancos GPCR, con estructuras de cryo-EM de cinco diseños que coinciden estrechamente con los modelos computacionales y control de la señalización del receptor en células vivas.",
+  "por_que_importa": "Abre el diseño dirigido de moduladores para una de las familias de blancos farmacológicos más importantes y difíciles de abordar.",
+  "como_aplicarlo": "Un equipo de biología estructural puede combinar diseño generativo de uniones con tamizaje funcional de alto rendimiento en lugar de cribar bibliotecas al azar.",
+  "actor": "Institute for Protein Design, Universidad de Washington",
+  "nivel": "equipo",
+  "industria": "bio",
+  "modalidad": [
+   "datos"
+  ],
+  "paradigma": [
+   "generativa",
+   "cientifica"
+  ],
+  "madurez": "piloto",
+  "evidencia": "revisada",
+  "autonomia": "asistente",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "UW Newsroom (sobre el artículo en Nature)",
+   "tipo": "academia",
+   "url": "https://newsroom.uw.edu/news-releases/ai-helps-create-miniprotein-switches-for-drug-targets"
+  },
+  "fecha_publicacion": "2026-05-21",
+  "relevancia": 76,
+  "etiquetas": [
+   "diseño de proteínas",
+   "gpcr",
+   "cryo-em",
+   "miniproteínas"
+  ],
+  "url": "https://newsroom.uw.edu/news-releases/ai-helps-create-miniprotein-switches-for-drug-targets",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "latent-y-agente-nanocuerpos",
+  "titulo": "Latent-Y: un agente autónomo diseña nanocuerpos y acierta en 6 de 9 blancos",
+  "resumen": "Latent Labs presentó Latent-Y, un agente que ejecuta campañas completas de diseño de anticuerpos a partir de instrucciones de texto: revisión de literatura, análisis del blanco, identificación del epítopo, diseño de candidatos con su modelo Latent-X2, validación computacional y selección. En laboratorio, los nanocuerpos diseñados unieron 6 de 9 blancos intentados (67 % de éxito a nivel de blanco), con afinidades reportadas que llegan al rango nanomolar de un dígito.",
+  "por_que_importa": "Lleva el diseño de biológicos de un modelo puntual a un agente que encadena todo el flujo de la campaña y se valida experimentalmente.",
+  "como_aplicarlo": "Un equipo de descubrimiento puede encargar a un agente el flujo completo de una campaña de binders y reservar el tiempo experto para la validación experimental.",
+  "actor": "Latent Labs",
+  "nivel": "organizacion",
+  "industria": "bio",
+  "modalidad": [
+   "texto",
+   "datos"
+  ],
+  "paradigma": [
+   "agentes",
+   "generativa",
+   "cientifica"
+  ],
+  "madurez": "piloto",
+  "evidencia": "medida",
+  "autonomia": "agente",
+  "region": "europa",
+  "fuente": {
+   "nombre": "arXiv (preprint 2603.29727)",
+   "tipo": "academia",
+   "url": "https://arxiv.org/abs/2603.29727"
+  },
+  "fecha_publicacion": "2026-03-31",
+  "relevancia": 72,
+  "etiquetas": [
+   "anticuerpos",
+   "agentes científicos",
+   "nanocuerpos",
+   "preprint"
+  ],
+  "url": "https://arxiv.org/abs/2603.29727",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "alphagenome-variantes-regulatorias",
+  "titulo": "AlphaGenome predice efectos de variantes regulatorias y se publica en Nature",
+  "resumen": "Google DeepMind publicó en Nature el modelo AlphaGenome, que toma hasta 1 Mb de ADN y predice miles de señales funcionales del genoma con resolución de una sola base, incluyendo expresión génica, accesibilidad de la cromatina, unión de factores de transcripción y splicing. En predicción del efecto de variantes iguala o supera a los mejores modelos externos disponibles en 25 de 26 evaluaciones, y reproduce el mecanismo de variantes clínicamente relevantes cercanas al oncogén TAL1; el modelo está disponible en vista previa por API para investigación no comercial.",
+  "por_que_importa": "Da a la genómica una herramienta revisada por pares para interpretar la enorme mayoría de variantes que caen fuera de las regiones codificantes.",
+  "como_aplicarlo": "Un laboratorio de genómica clínica puede priorizar variantes no codificantes de casos sin diagnóstico usando predicciones de efecto regulatorio antes de diseñar experimentos funcionales.",
+  "actor": "Google DeepMind",
+  "nivel": "organizacion",
+  "industria": "bio",
+  "modalidad": [
+   "datos"
+  ],
+  "paradigma": [
+   "predictiva",
+   "cientifica"
+  ],
+  "madurez": "produccion",
+  "evidencia": "revisada",
+  "autonomia": "asistente",
+  "region": "global",
+  "fuente": {
+   "nombre": "PubMed (Nature 2026;649(8099):1206-1218)",
+   "tipo": "academia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41606153/"
+  },
+  "fecha_publicacion": "2026-01-28",
+  "relevancia": 78,
+  "etiquetas": [
+   "genómica",
+   "variantes",
+   "regulación génica",
+   "nature"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41606153/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "ginkgo-openai-sintesis-proteinas",
+  "titulo": "Laboratorio autónomo guiado por GPT-5 baja 40 % el costo de síntesis de proteínas",
+  "resumen": "OpenAI y Ginkgo Bioworks acoplaron GPT-5 al laboratorio robotizado de Ginkgo: el modelo propuso lotes de experimentos, los carros robóticos los ejecutaron y los datos volvieron al modelo. Tras seis rondas de experimentación autónoma lograron una reducción cercana al 40 % en el costo específico (dólares por gramo de proteína) de la síntesis libre de células frente al estado del arte, con más de 36.000 pruebas de composiciones de reacción en unos dos meses; los autores advierten que falta demostrar la generalización a otras proteínas y a otros sistemas.",
+  "por_que_importa": "Es un bucle cerrado real de diseño, experimento y aprendizaje en el que el modelo decide los experimentos y no solo los analiza.",
+  "como_aplicarlo": "Un equipo de biología sintética con laboratorio automatizado puede dejar que un modelo proponga los lotes de optimización de medios o reacciones y medir el avance ronda a ronda.",
+  "actor": "OpenAI y Ginkgo Bioworks",
+  "nivel": "organizacion",
+  "industria": "bio",
+  "modalidad": [
+   "datos",
+   "accion_fisica"
+  ],
+  "paradigma": [
+   "agentes",
+   "cientifica"
+  ],
+  "madurez": "piloto",
+  "evidencia": "medida",
+  "autonomia": "agente",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "OpenAI",
+   "tipo": "frontier_lab",
+   "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost"
+  },
+  "fecha_publicacion": "2026-02-05",
+  "relevancia": 80,
+  "etiquetas": [
+   "laboratorio autónomo",
+   "biología sintética",
+   "optimización",
+   "bucle cerrado"
+  ],
+  "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "boston-childrens-o3-enfermedades-raras",
+  "titulo": "Boston Children's y OpenAI dan pistas en 376 casos raros sin resolver",
+  "resumen": "Investigadores del Manton Center del Boston Children's Hospital, Harvard y OpenAI aplicaron el modelo o3 con Deep Research a información clínica y genómica desidentificada de 376 casos ya analizados que seguían sin diagnóstico, y obtuvieron candidatos con evidencia para 18 diagnósticos que clínicos e investigadores debieron revisar y confirmar. Antes de abordar los casos sin resolver, el flujo se probó en casos con diagnóstico conocido y recuperó el gen y la variante correctos en ejecuciones duplicadas en 48 de 51 casos.",
+  "por_que_importa": "Pone a prueba agentes de investigación sobre casos reales que los equipos humanos ya habían dejado de lado, con un control previo de desempeño en casos conocidos.",
+  "como_aplicarlo": "Un centro de genética puede reanalizar su cola de casos sin diagnóstico con agentes de búsqueda bibliográfica y validar el desempeño primero en casos ya resueltos.",
+  "actor": "Boston Children's Hospital (Manton Center), Harvard y OpenAI",
+  "nivel": "equipo",
+  "industria": "salud",
+  "modalidad": [
+   "texto",
+   "datos"
+  ],
+  "paradigma": [
+   "agentes",
+   "generativa"
+  ],
+  "madurez": "piloto",
+  "evidencia": "revisada",
+  "autonomia": "asistente",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "OpenAI (sobre el estudio en NEJM AI)",
+   "tipo": "frontier_lab",
+   "url": "https://openai.com/es-ES/index/diagnose-rare-childhood-diseases/"
+  },
+  "fecha_publicacion": "2026-06-18",
+  "relevancia": 80,
+  "etiquetas": [
+   "enfermedades raras",
+   "genómica clínica",
+   "diagnóstico",
+   "nejm ai"
+  ],
+  "url": "https://openai.com/es-ES/index/diagnose-rare-childhood-diseases/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "rwjbarnabas-alerta-temprana-mortalidad",
+  "titulo": "Alerta temprana con IA: 18 % menos riesgo ajustado de muerte en 11 hospitales",
+  "resumen": "RWJBarnabas Health y Rutgers evaluaron la implementación del Epic Deterioration Index en 11 hospitales, con recálculo del riesgo cada 15 minutos y aviso automático a los equipos de respuesta rápida, sobre 23.132 pacientes de alto riesgo. La mortalidad intrahospitalaria en ese grupo bajó del 23,1 % al 18,6 %, equivalente a una reducción del 18 % en las probabilidades ajustadas por riesgo; los autores atribuyen el beneficio al proceso de atención completo (capacitación, alertas y activación automática) y no solo al algoritmo.",
+  "por_que_importa": "Es uno de los pocos resultados publicados que vinculan un modelo de deterioro desplegado a escala con la mortalidad, aunque sea un estudio de implementación y no aleatorizado.",
+  "como_aplicarlo": "Un hospital que ya tiene un índice de deterioro puede invertir en el circuito de respuesta (aviso automático al equipo rápido y formación) más que en el modelo en sí.",
+  "actor": "RWJBarnabas Health y Rutgers Health",
+  "nivel": "organizacion",
+  "industria": "salud",
+  "modalidad": [
+   "datos"
+  ],
+  "paradigma": [
+   "predictiva"
+  ],
+  "madurez": "produccion",
+  "evidencia": "revisada",
+  "autonomia": "automatizacion",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "Universidad de Rutgers (sobre el estudio en NEJM AI)",
+   "tipo": "academia",
+   "url": "https://www.rutgers.edu/news/rwjbarnabas-health-and-rutgers-researchers-find-ai-tool-helps-detect-patients-risk-earlier"
+  },
+  "fecha_publicacion": "2026-07-29",
+  "relevancia": 82,
+  "etiquetas": [
+   "deterioro clínico",
+   "respuesta rápida",
+   "mortalidad",
+   "implementación"
+  ],
+  "url": "https://www.rutgers.edu/news/rwjbarnabas-health-and-rutgers-researchers-find-ai-tool-helps-detect-patients-risk-earlier",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "nhs-google-cribado-mama",
+  "titulo": "IA como segundo lector detecta 25 % de cánceres de intervalo perdidos en el NHS",
+  "resumen": "Google, el Imperial College London y el NHS publicaron dos estudios complementarios en Nature Cancer sobre un sistema de IA para el cribado mamográfico, en la mayor evaluación del NHS hasta la fecha. Al comparar la doble lectura humana con un lector humano más IA, la tasa de detección de cáncer subió de 7,54 a 9,33 por cada 1.000 mujeres y el sistema identificó el 25 % de los cánceres de intervalo antes no detectados, con más casos en arbitraje pero menor carga global de lectura; el Comité Nacional de Cribado del Reino Unido aún no recomienda el uso de IA en el programa.",
+  "por_que_importa": "Aporta evidencia revisada por pares a escala nacional sobre el papel de la IA como segundo lector, junto con la cautela regulatoria que todavía existe.",
+  "como_aplicarlo": "Un programa de cribado puede evaluar la IA de forma retrospectiva como segundo lector, midiendo detección, cánceres de intervalo y carga de arbitraje antes de cambiar el protocolo.",
+  "actor": "Google Research, Imperial College London y NHS",
+  "nivel": "organizacion",
+  "industria": "salud",
+  "modalidad": [
+   "vision"
+  ],
+  "paradigma": [
+   "predictiva"
+  ],
+  "madurez": "piloto",
+  "evidencia": "revisada",
+  "autonomia": "asistente",
+  "region": "europa",
+  "fuente": {
+   "nombre": "Imperial College London (sobre los estudios en Nature Cancer)",
+   "tipo": "academia",
+   "url": "https://www.imperial.ac.uk/news/articles/global-health-innovation/2026/new-research-conducted-using-google-ai-can-match-or-exceed-radiologists-in-detecting-cancer-in-breast-scans-/"
+  },
+  "fecha_publicacion": "2026-03-10",
+  "relevancia": 84,
+  "etiquetas": [
+   "cribado",
+   "mamografía",
+   "radiología",
+   "nhs"
+  ],
+  "url": "https://www.imperial.ac.uk/news/articles/global-health-innovation/2026/new-research-conducted-using-google-ai-can-match-or-exceed-radiologists-in-detecting-cancer-in-breast-scans-/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "jamia-escribas-ambientales-cruzado",
+  "titulo": "Ensayo cruzado con 160 clínicos compara dos escribas ambientales de IA",
+  "resumen": "Un ensayo clínico aleatorizado cruzado y abierto en un centro académico terciario asignó a 160 clínicos ambulatorios a dos grupos de 80, con dos períodos de cruce, para comparar dos tecnologías de escriba ambiental de IA. Ambas herramientas redujeron el desgaste profesional y mejoraron la satisfacción con el flujo de trabajo, y el producto B logró una mayor reducción del tiempo diario en notas que el producto A (diferencia de −3,19 minutos; IC 95 % −4,87 a −1,50), sin diferencias relevantes en el trabajo fuera de horario ni en el desgaste relacionado con los pacientes.",
+  "por_que_importa": "Demuestra que la elección entre proveedores de escribas ambientales produce diferencias medibles, y que las ganancias de tiempo son modestas frente a las expectativas del mercado.",
+  "como_aplicarlo": "Antes de comprar un escriba ambiental, un hospital puede correr un período cruzado entre dos proveedores midiendo minutos en notas y desgaste con instrumentos validados.",
+  "actor": "Duke University Health System",
+  "nivel": "organizacion",
+  "industria": "salud",
+  "modalidad": [
+   "audio",
+   "texto"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "piloto",
+  "evidencia": "revisada",
+  "autonomia": "asistente",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "PubMed (J Am Med Inform Assoc 2026;33(5):990-999)",
+   "tipo": "academia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/41729180/"
+  },
+  "fecha_publicacion": "2026-05-01",
+  "relevancia": 74,
+  "etiquetas": [
+   "escriba ambiental",
+   "desgaste profesional",
+   "documentación clínica",
+   "ensayo"
+  ],
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41729180/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "telepatia-escriba-clinico-latam",
+  "titulo": "Telepatía AI opera su escriba clínico en más de 40 instituciones de cinco países",
+  "resumen": "Telepatía AI, fundada por los colombianos Tomás Guiraldo y Nicolás Abad y con sede en São Paulo, opera un agente de IA que redacta la historia clínica y se adapta a los estándares y protocolos de cada servicio de salud, integrándose con distintos sistemas de historia clínica. Está presente en más de 40 instituciones de salud de Brasil, Colombia, Chile, Argentina y México y, tras su llegada reciente a Chile, trabaja con el Hospital del Profesor y la red We Clinic en Valparaíso.",
+  "por_que_importa": "Es uno de los pocos despliegues multipaís de documentación clínica con IA construido desde América Latina y adaptado a sus sistemas de salud.",
+  "como_aplicarlo": "Una red de clínicas puede adoptar un escriba que muestre las fuentes de cada sugerencia y deje al profesional aceptarla o descartarla, en lugar de automatizar la nota sin revisión.",
+  "actor": "Telepatía AI",
+  "nivel": "organizacion",
+  "industria": "salud",
+  "modalidad": [
+   "audio",
+   "texto"
+  ],
+  "paradigma": [
+   "generativa",
+   "agentes"
+  ],
+  "madurez": "produccion",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "latam",
+  "fuente": {
+   "nombre": "Forbes Chile",
+   "tipo": "medio",
+   "url": "https://forbes.cl/ia/2026-11-12/la-ia-de-salud-que-ha-evitado-300-mil-errores-medicos-aterriza-en-chile/"
+  },
+  "fecha_publicacion": "2026-11-12",
+  "relevancia": 58,
+  "etiquetas": [
+   "historia clínica",
+   "latam",
+   "chile",
+   "escriba"
+  ],
+  "url": "https://forbes.cl/ia/2026-11-12/la-ia-de-salud-que-ha-evitado-300-mil-errores-medicos-aterriza-en-chile/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "paho-bid-uruguay-preparacion-ia",
+  "titulo": "Uruguay evalúa con OPS y BID su preparación para usar IA en salud pública",
+  "resumen": "La OPS/OMS realizó un taller el 27 y 28 de agosto de 2026 para evaluar la preparación institucional de Uruguay para integrar la inteligencia artificial en la salud pública, con participación de representantes del BID. El ministerio de salud informó que está diseñando una estrategia nacional de IA en salud y que el siguiente paso es una hoja de ruta nacional basada en los resultados del diagnóstico; la OPS y el BID desarrollaron en conjunto AI-GUARD, una herramienta técnica para que los países evalúen la gobernanza y el uso de IA.",
+  "por_que_importa": "Muestra el paso previo que casi nunca se documenta: medir si un sistema de salud pública está institucionalmente listo antes de comprar IA.",
+  "como_aplicarlo": "Un ministerio de salud puede aplicar un diagnóstico de preparación y gobernanza, con apoyo multilateral, antes de licitar herramientas de IA clínica.",
+  "actor": "Ministerio de Salud Pública de Uruguay, con OPS/OMS y BID",
+  "nivel": "gobierno",
+  "industria": "salud",
+  "modalidad": [
+   "datos"
+  ],
+  "paradigma": [
+   "generativa",
+   "predictiva"
+  ],
+  "madurez": "senal",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "latam",
+  "fuente": {
+   "nombre": "Organización Panamericana de la Salud",
+   "tipo": "multilateral",
+   "url": "https://www.paho.org/es/noticias/31-8-2026-uruguay-evalua-su-preparacion-institucional-para-integrar-inteligencia"
+  },
+  "fecha_publicacion": "2026-08-31",
+  "relevancia": 60,
+  "etiquetas": [
+   "gobernanza",
+   "salud pública",
+   "uruguay",
+   "multilateral"
+  ],
+  "url": "https://www.paho.org/es/noticias/31-8-2026-uruguay-evalua-su-preparacion-institucional-para-integrar-inteligencia",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "maharashtra-ia-gemelo-digital-10000-agricultores",
+  "titulo": "Maharashtra lanza piloto de IA y gemelo digital agrícola con 10.000 agricultores",
+  "resumen": "El gobierno de Maharashtra (India) aprobó en agosto de 2026 un piloto que combina IA, imágenes satelitales, drones y sensores IoT para generar recomendaciones por finca y cultivo enviadas al celular de 10.000 agricultores (algodón, soya, caña, cebolla, maíz, entre otros). El antecedente citado es un ensayo en caña del Agricultural Development Trust de Baramati donde, con 164 registros válidos de 200 agricultores, la producción media subió de 65,45 a 73,12 toneladas por acre.",
+  "por_que_importa": "Es un gobierno subnacional que pasa de un caso exitoso en un cultivo a un piloto multicultivo con criterio explícito de escalar solo si funciona.",
+  "como_aplicarlo": "Un ministerio de agricultura puede replicar el esquema de piloto acotado (cultivos y productores seleccionados) con línea base medida antes de escalar asesorías de IA a todo el territorio.",
+  "actor": "Gobierno del estado de Maharashtra (India) con el Agricultural Development Trust de Baramati",
+  "nivel": "gobierno",
+  "industria": "agro",
+  "industria_detalle": "extensión agrícola",
+  "modalidad": [
+   "datos",
+   "vision"
+  ],
+  "paradigma": [
+   "predictiva"
+  ],
+  "madurez": "piloto",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "asia",
+  "fuente": {
+   "nombre": "ThePrint (PTI)",
+   "tipo": "medio",
+   "url": "https://theprint.in/india/maharashtra-govt-to-pilot-ai-powered-farming-project-with-10000-farmers/3021666/"
+  },
+  "fecha_publicacion": "2026-08-21",
+  "relevancia": 65,
+  "etiquetas": [
+   "gemelo digital",
+   "asesoria agricola",
+   "cana de azucar",
+   "piloto estatal"
+  ],
+  "url": "https://theprint.in/india/maharashtra-govt-to-pilot-ai-powered-farming-project-with-10000-farmers/3021666/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "kathir-kerala-small-ai-banco-mundial",
+  "titulo": "Kerala usa 'IA pequeña' en KATHIR para asesorar a agricultores con fotos de cultivos",
+  "resumen": "La plataforma estatal KATHIR de Kerala, apoyada por el Banco Mundial, permite que pequeños agricultores suban fotos de sus cultivos y reciban orientación asistida por IA sobre posibles enfermedades y tratamientos, además de conectarlos con programas públicos y mercados. El Banco Mundial la presenta como ejemplo de 'IA pequeña' diseñada para teléfonos básicos y zonas con conectividad limitada, dentro de la iniciativa AgriConnect.",
+  "por_que_importa": "Muestra el giro de los multilaterales hacia IA ligera y de bajo costo integrada a infraestructura pública, en lugar de grandes modelos de frontera.",
+  "como_aplicarlo": "Un gobierno o cooperativa puede integrar diagnóstico por foto con su registro de productores y programas de apoyo, priorizando que funcione en teléfonos básicos y con poca señal.",
+  "actor": "Gobierno de Kerala (Departamento de Agricultura) con apoyo del Banco Mundial",
+  "nivel": "gobierno",
+  "industria": "agro",
+  "industria_detalle": "extensión agrícola",
+  "modalidad": [
+   "vision",
+   "texto"
+  ],
+  "paradigma": [
+   "predictiva",
+   "generativa"
+  ],
+  "madurez": "produccion",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "asia",
+  "fuente": {
+   "nombre": "Banco Mundial",
+   "tipo": "multilateral",
+   "url": "https://www.worldbank.org/en/news/feature/2026/08/27/small-ai-transforms-farming-in-india"
+  },
+  "fecha_publicacion": "2026-08-27",
+  "relevancia": 58,
+  "etiquetas": [
+   "small ai",
+   "diagnostico de plagas",
+   "pequenos productores",
+   "banco mundial"
+  ],
+  "url": "https://www.worldbank.org/en/news/feature/2026/08/27/small-ai-transforms-farming-in-india",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "joia-cna-senar-whatsapp-productores",
+  "titulo": "CNA/Senar lanza JoIA, asistente de IA gratuito en WhatsApp para productores de Brasil",
+  "resumen": "El Sistema CNA/Senar lanzó en agosto de 2026 JoIA, un asistente de IA gratuito en WhatsApp que responde por texto, audio o foto sobre gestión, costos, finanzas y manejo técnico, usando la base de datos de costos y precios agrícolas del sistema. Antes del lanzamiento pasó por un piloto de 45 días en todos los estados con más de 10.000 productores.",
+  "por_que_importa": "Es una gremial agropecuaria de alcance nacional que pone IA conversacional sobre sus propios datos históricos, en el canal que los productores ya usan.",
+  "como_aplicarlo": "Una federación o gremio agro puede montar un asistente en WhatsApp sobre sus datos de costos y sus cartillas técnicas, validándolo antes con un piloto multirregional.",
+  "actor": "Confederação da Agricultura e Pecuária do Brasil (CNA) y Senar",
+  "nivel": "organizacion",
+  "industria": "agro",
+  "modalidad": [
+   "texto",
+   "audio",
+   "vision"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "produccion",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "latam",
+  "fuente": {
+   "nombre": "CNA Brasil",
+   "tipo": "industria",
+   "url": "https://cnabrasil.org.br/noticias/joia-sistema-cna-senar-leva-inovacao-para-ajudar-produtor-a-tomar-decisoes"
+  },
+  "fecha_publicacion": "2026-08-25",
+  "relevancia": 64,
+  "etiquetas": [
+   "whatsapp",
+   "asistente agro",
+   "brasil",
+   "gestion de costos"
+  ],
+  "url": "https://cnabrasil.org.br/noticias/joia-sistema-cna-senar-leva-inovacao-para-ajudar-produtor-a-tomar-decisoes",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "sag-chile-ai-marketscan-comercio-electronico",
+  "titulo": "Chile: IA del SAG y la U. de Chile revisa 232.000 avisos online y detecta 4.634 alertas",
+  "resumen": "El Servicio Agrícola y Ganadero (SAG) y la Universidad de Chile desarrollaron AI-MarketScan, un sistema multimodal que analiza imágenes y texto de avisos en plataformas de comercio electrónico para detectar productos regulados no autorizados, desde plaguicidas tóxicos hasta fauna protegida. Sobre 232.000 avisos en cuatro plataformas generó 4.634 alertas; la revisión manual de ese volumen habría tomado unas 38.000 horas, mientras el sistema procesa cerca de 10.000 avisos por hora.",
+  "por_que_importa": "Es un caso latinoamericano de fiscalización pública con IA con cifras concretas de escala y ahorro de horas, en un problema (venta online ilegal) que desborda a los inspectores.",
+  "como_aplicarlo": "Una agencia sanitaria, aduanera o de consumo puede usar clasificación multimodal de avisos para priorizar inspecciones, dejando la decisión final a fiscalizadores humanos.",
+  "actor": "Servicio Agrícola y Ganadero (SAG) y Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile (fondo Fondef/ANID)",
+  "nivel": "gobierno",
+  "industria": "agro",
+  "industria_detalle": "fiscalización sanitaria",
+  "modalidad": [
+   "multimodal"
+  ],
+  "paradigma": [
+   "predictiva"
+  ],
+  "madurez": "piloto",
+  "evidencia": "medida",
+  "autonomia": "automatizacion",
+  "region": "latam",
+  "fuente": {
+   "nombre": "Radio Universidad de Chile",
+   "tipo": "academia",
+   "url": "https://radio.uchile.cl/2026/06/06/ia-al-servicio-del-estado-desarrollan-software-para-fiscalizar-productos-ilegales-en-el-comercio-electronico/"
+  },
+  "fecha_publicacion": "2026-06-06",
+  "relevancia": 74,
+  "etiquetas": [
+   "fiscalizacion",
+   "comercio electronico",
+   "chile",
+   "plaguicidas"
+  ],
+  "url": "https://radio.uchile.cl/2026/06/06/ia-al-servicio-del-estado-desarrollan-software-para-fiscalizar-productos-ilegales-en-el-comercio-electronico/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "xiaomi-humanoide-fabrica-ev-98",
+  "titulo": "Humanoide de Xiaomi logra 98% de éxito instalando tuercas en su planta de autos eléctricos",
+  "resumen": "Xiaomi informó en julio de 2026 que su robot humanoide, tras una 'pasantía' de cuatro meses en su planta de vehículos eléctricos, logró 98% de éxito en la estación de instalación de tuercas (frente al 90,2% reportado en una prueba de tres horas en marzo) y cerca de 90% en clasificación de paneles y plegado de cajas. Las cifras son de la empresa y no se divulgaron el número de intentos ni la tasa de intervención humana.",
+  "por_que_importa": "Es uno de los pocos casos de humanoides con métricas de tarea publicadas y una curva de mejora en línea de producción real, no en laboratorio.",
+  "como_aplicarlo": "Un fabricante que evalúe humanoides puede exigir métricas por estación (tasa de éxito, ciclo, intervenciones) y medir la mejora en semanas de operación antes de comprometer flota.",
+  "actor": "Xiaomi (fábrica de vehículos eléctricos, China)",
+  "nivel": "organizacion",
+  "industria": "robotica",
+  "modalidad": [
+   "accion_fisica",
+   "vision"
+  ],
+  "paradigma": [
+   "agentes"
+  ],
+  "madurez": "piloto",
+  "evidencia": "reportada",
+  "autonomia": "agente",
+  "region": "asia",
+  "fuente": {
+   "nombre": "TechNode",
+   "tipo": "medio",
+   "url": "https://technode.com/2026/07/15/xiaomi-updates-progress-on-humanoid-robots-in-auto-factory-achieves-98-success-rate-in-some-tasks/"
+  },
+  "fecha_publicacion": "2026-07-15",
+  "relevancia": 70,
+  "etiquetas": [
+   "humanoides",
+   "automotriz",
+   "manufactura",
+   "china"
+  ],
+  "url": "https://technode.com/2026/07/15/xiaomi-updates-progress-on-humanoid-robots-in-auto-factory-achieves-98-success-rate-in-some-tasks/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "gxo-agility-digit-expansion",
+  "titulo": "GXO amplía humanoides Digit a dos almacenes tras mover 100.000 cajas en Georgia",
+  "resumen": "El operador logístico GXO anunció en octubre de 2026 que llevará los humanoides Digit de Agility Robotics a sus centros de e-commerce de Statesville (Carolina del Norte) y Lebanon (Tennessee) a partir de 2027, para manipulación repetitiva de materiales. La expansión se apoya en el despliegue de Flowery Branch (Georgia), iniciado en 2024, donde Digit ha movido más de 100.000 cajas; Agility reporta más de 65.000 horas de operación comercial en total.",
+  "por_que_importa": "Marca el paso de piloto a expansión multi-sitio de un humanoide en logística con un historial operativo acumulado, aunque sin cifras de unidades ni de valor.",
+  "como_aplicarlo": "Un operador logístico puede empezar con un sitio y una tarea acotada (mover cajas), acumular horas y volumen medidos, y usar ese historial para decidir la expansión.",
+  "actor": "GXO Logistics con Agility Robotics",
+  "nivel": "organizacion",
+  "industria": "robotica",
+  "modalidad": [
+   "accion_fisica"
+  ],
+  "paradigma": [
+   "agentes"
+  ],
+  "madurez": "produccion",
+  "evidencia": "reportada",
+  "autonomia": "agente",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "The Robot Report",
+   "tipo": "medio",
+   "url": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/"
+  },
+  "fecha_publicacion": "2026-10-26",
+  "relevancia": 70,
+  "etiquetas": [
+   "humanoides",
+   "logistica",
+   "almacenes",
+   "robots como servicio"
+  ],
+  "url": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "schaeffler-taicang-humanoides-fabrican-humanoides",
+  "titulo": "Schaeffler abre en China una fábrica donde seis humanoides ensamblan componentes de robots",
+  "resumen": "Schaeffler inauguró en octubre de 2026 una fábrica 'faro' de unos 7.500 m² en Taicang (China) donde seis robots humanoides trabajan en cinco estaciones de una línea de módulos articulares: preparan y clasifican piezas, ensamblan e inspeccionan, etiquetan y empacan. La planta combina producción de actuadores para humanoides con entrenamiento de robots y validación mediante gemelo digital.",
+  "por_que_importa": "Un proveedor automotriz global integra humanoides en una línea productiva propia y además fabrica sus componentes, cerrando el ciclo de 'humanoides que fabrican humanoides'.",
+  "como_aplicarlo": "Un fabricante puede dedicar una línea acotada como banco de pruebas de robots, con escenarios de entrenamiento y gemelo digital conectados a la producción real.",
+  "actor": "Schaeffler (Schaeffler Embodied Intelligence Taicang)",
+  "nivel": "organizacion",
+  "industria": "robotica",
+  "modalidad": [
+   "accion_fisica",
+   "vision"
+  ],
+  "paradigma": [
+   "agentes"
+  ],
+  "madurez": "piloto",
+  "evidencia": "reportada",
+  "autonomia": "agente",
+  "region": "asia",
+  "fuente": {
+   "nombre": "The AI Insider",
+   "tipo": "medio",
+   "url": "https://theaiinsider.tech/2026/10/20/humanoids-making-humanoids-as-schaeffler-opens-lighthouse-factory-in-china/"
+  },
+  "fecha_publicacion": "2026-10-20",
+  "relevancia": 62,
+  "etiquetas": [
+   "humanoides",
+   "manufactura",
+   "gemelo digital",
+   "china"
+  ],
+  "url": "https://theaiinsider.tech/2026/10/20/humanoids-making-humanoids-as-schaeffler-opens-lighthouse-factory-in-china/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "fiscalia-espana-ia-alcoholemia",
+  "titulo": "España prueba IA que redacta borradores de acusación fiscal en casos de alcoholemia",
+  "resumen": "El Ministerio de Justicia de España presentó en la Fiscalía General del Estado una herramienta de IA, en fase de prueba, que analiza los atestados policiales y genera un primer borrador del escrito de calificación en delitos de conducción bajo efectos del alcohol o drogas sin accidentes, señalando los campos a verificar. El fiscal revisa, modifica y firma; con unos 39.000 escritos al año, reducir el tiempo de 10 a 5 minutos supondría unas 3.250 horas ahorradas anuales (estimación del proyecto).",
+  "por_que_importa": "Es un uso acotado y de alto volumen en justicia penal, con control humano explícito y una métrica de ahorro clara para evaluar.",
+  "como_aplicarlo": "Una fiscalía o tribunal puede elegir un tipo de caso repetitivo y estandarizado, automatizar el primer borrador y medir minutos por escrito antes de ampliar a otros delitos.",
+  "actor": "Ministerio de Justicia de España y Fiscalía General del Estado",
+  "nivel": "gobierno",
+  "industria": "emergentes",
+  "industria_detalle": "justicia",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "piloto",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "europa",
+  "fuente": {
+   "nombre": "Ministerio de Justicia de España",
+   "tipo": "gobierno",
+   "url": "https://www.mjusticia.gob.es/es/institucional/gabinete-comunicacion/noticias-ministerio/Herramienta-IA-seguridad-vial"
+  },
+  "fecha_publicacion": "2026-09-17",
+  "relevancia": 72,
+  "etiquetas": [
+   "justicia",
+   "fiscalia",
+   "borradores",
+   "espana"
+  ],
+  "url": "https://www.mjusticia.gob.es/es/institucional/gabinete-comunicacion/noticias-ministerio/Herramienta-IA-seguridad-vial",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "inss-concesion-automatica-auditoria-tcu",
+  "titulo": "Brasil: el TCU audita la concesión automática de jubilaciones del INSS y ordena ajustes",
+  "resumen": "El INSS concede una parte creciente de beneficios previsionales mediante un sistema automático desarrollado por Dataprev, sin análisis humano directo. Una auditoría del Tribunal de Contas da União concluyó que los resultados esperados (menor fila y análisis más rápido) no se alcanzaron plenamente, que la meta de 50% de concesiones automáticas no avanzó y que el asegurado no puede corregir documentos que aumentarían su beneficio; según la cobertura del acórdão, el TCU ordenó liberar el monto incontrovertido y avisar al asegurado de pendientes.",
+  "por_que_importa": "Es uno de los mayores casos latinoamericanos de decisiones administrativas automatizadas a escala nacional y muestra cómo un órgano de control evalúa y corrige su diseño.",
+  "como_aplicarlo": "Una agencia de seguridad social puede automatizar casos con datos completos, pero debe diseñar desde el inicio la notificación de pendientes y la vía de corrección para el ciudadano, y medir equidad además de velocidad.",
+  "actor": "Instituto Nacional do Seguro Social (INSS) y Dataprev, auditados por el Tribunal de Contas da União",
+  "nivel": "gobierno",
+  "industria": "emergentes",
+  "industria_detalle": "seguridad social",
+  "modalidad": [
+   "datos"
+  ],
+  "paradigma": [
+   "predictiva"
+  ],
+  "madurez": "escala",
+  "evidencia": "medida",
+  "autonomia": "automatizacion",
+  "region": "latam",
+  "fuente": {
+   "nombre": "Tribunal de Contas da União (TCU)",
+   "tipo": "gobierno",
+   "url": "https://portal.tcu.gov.br/imprensa/noticias/tcu-fiscaliza-sistema-de-concessao-automatica-de-beneficios-do-inss"
+  },
+  "fecha_publicacion": "2026-06-12",
+  "relevancia": 78,
+  "etiquetas": [
+   "seguridad social",
+   "decisiones automatizadas",
+   "auditoria",
+   "brasil"
+  ],
+  "url": "https://portal.tcu.gov.br/imprensa/noticias/tcu-fiscaliza-sistema-de-concessao-automatica-de-beneficios-do-inss",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "mexico-ventanilla-24-7-asistente-ia",
+  "titulo": "México: el asistente de IA Ventanilla 24/7 de gob.mx supera el millón de atenciones",
+  "resumen": "La Agencia de Transformación Digital y Telecomunicaciones (ATDT) de México opera Ventanilla 24/7, un canal en gob.mx que combina IA generativa con búsqueda semántica sobre información oficial para orientar y resolver trámites. Entre el 9 de enero y el 24 de abril de 2026 superó el millón de atenciones: 649.783 chats resueltos por el chatbot y 384.163 por agentes humanos.",
+  "por_que_importa": "Es un despliegue nacional en América Latina con cifras de reparto entre IA y agentes, útil para dimensionar cuánta demanda absorbe un asistente público.",
+  "como_aplicarlo": "Un gobierno puede anclar su asistente a contenidos oficiales con búsqueda semántica y reportar cuántas consultas cierra la IA versus cuántas escala a personas.",
+  "actor": "Agencia de Transformación Digital y Telecomunicaciones (ATDT), Gobierno de México",
+  "nivel": "gobierno",
+  "industria": "emergentes",
+  "industria_detalle": "servicios públicos",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "escala",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "latam",
+  "fuente": {
+   "nombre": "Infobae México",
+   "tipo": "medio",
+   "url": "https://www.infobae.com/mexico/2026/04/29/ventanilla-247-un-canal-virtual-del-gobierno-que-apoya-a-los-mexicanos-destaca-mas-de-un-millon-de-consultas/"
+  },
+  "fecha_publicacion": "2026-04-29",
+  "relevancia": 66,
+  "etiquetas": [
+   "atencion ciudadana",
+   "chatbot",
+   "tramites",
+   "mexico"
+  ],
+  "url": "https://www.infobae.com/mexico/2026/04/29/ventanilla-247-un-canal-virtual-del-gobierno-que-apoya-a-los-mexicanos-destaca-mas-de-un-millon-de-consultas/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "uk-extract-planificacion-urbana",
+  "titulo": "Reino Unido abre a todos los municipios de Inglaterra Extract, IA que digitaliza planos",
+  "resumen": "El Ministerio de Vivienda (MHCLG) puso a disposición gratuita de todas las autoridades de planificación de Inglaterra Extract, una herramienta construida con Gemini por el equipo i.AI del gobierno que convierte documentos y mapas históricos de planificación en datos digitales. En pruebas con unas 20 autoridades locales, el gobierno estima un ahorro medio de unas 255 horas de trabajo manual por municipio al año.",
+  "por_que_importa": "Ataca un cuello de botella concreto (datos de planificación en papel) que frena la construcción de vivienda, y pasa de prueba a disponibilidad nacional.",
+  "como_aplicarlo": "Un gobierno local o nacional puede usar modelos multimodales para extraer datos de archivos históricos en PDF o mapas y alimentar sistemas de decisión, midiendo horas ahorradas por oficina.",
+  "actor": "Ministry of Housing, Communities and Local Government (MHCLG) e Incubator for AI (i.AI), Reino Unido",
+  "nivel": "gobierno",
+  "industria": "emergentes",
+  "industria_detalle": "ciudades y planificación urbana",
+  "modalidad": [
+   "multimodal"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "escala",
+  "evidencia": "reportada",
+  "autonomia": "automatizacion",
+  "region": "europa",
+  "fuente": {
+   "nombre": "MHCLG Digital (blog del gobierno del Reino Unido)",
+   "tipo": "gobierno",
+   "url": "https://mhclgdigital.blog.gov.uk/2026/06/17/extract-is-here-ai-powered-planning-data-for-every-council-in-england/"
+  },
+  "fecha_publicacion": "2026-06-17",
+  "relevancia": 74,
+  "etiquetas": [
+   "planificacion urbana",
+   "digitalizacion",
+   "vivienda",
+   "municipios"
+  ],
+  "url": "https://mhclgdigital.blog.gov.uk/2026/06/17/extract-is-here-ai-powered-planning-data-for-every-council-in-england/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "eedi-deepmind-rct-tutor-ia",
+  "titulo": "Ensayo con 1.179 alumnos: tutor de IA iguala a tutores humanos, pero no mejora el test",
+  "resumen": "Eedi y Google (LearnLM) realizaron un ensayo aleatorizado con 1.179 estudiantes de 10 escuelas secundarias públicas del Reino Unido. Cualquier tutoría, de IA o humana, elevó los aciertos en preguntas de seguimiento a 56-58% frente a 43% con la remediación estándar, y los tutores humanos aprobaron sin cambios el 94,7% de los mensajes de la IA; sin embargo, en el test estandarizado Star Maths no hubo ventaja sobre la práctica estándar.",
+  "por_que_importa": "Es evidencia experimental rigurosa que separa la ayuda inmediata del aprendizaje duradero, algo clave antes de invertir en tutores de IA.",
+  "como_aplicarlo": "Un sistema educativo que pilotee tutores de IA debe medir tanto aciertos inmediatos como pruebas estandarizadas posteriores, con grupo de control y supervisión humana.",
+  "actor": "Eedi con Google (LearnLM / Google DeepMind)",
+  "nivel": "organizacion",
+  "industria": "emergentes",
+  "industria_detalle": "educación",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "piloto",
+  "evidencia": "medida",
+  "autonomia": "asistente",
+  "region": "europa",
+  "fuente": {
+   "nombre": "Google / Eedi (informe LearnLM)",
+   "tipo": "frontier_lab",
+   "url": "https://services.google.com/fh/files/misc/learnlm_oct26.pdf"
+  },
+  "fecha_publicacion": "2026-10-29",
+  "relevancia": 80,
+  "etiquetas": [
+   "tutor ia",
+   "ensayo aleatorizado",
+   "matematicas",
+   "educacion"
+  ],
+  "url": "https://services.google.com/fh/files/misc/learnlm_oct26.pdf",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "nextera-ia-despacho-mantenimiento-20m",
+  "titulo": "NextEra atribuye más de 20 millones de dólares de ahorro a su IA de despacho y cortes",
+  "resumen": "La eléctrica estadounidense NextEra afirmó en septiembre de 2026 que su herramienta de IA para despacho y programación de mantenimientos y cortes ya generó más de 20 millones de dólares de ahorro para sus clientes en el año. En la misma mesa, Santee Cooper explicó que espera que un modelo de pronóstico meteorológico propio le evite compras en el mercado spot que pueden costar 100.000 dólares por hora en clima extremo.",
+  "por_que_importa": "Es un caso de energía con impacto económico cuantificado en operación, más allá de los pilotos de pronóstico de demanda.",
+  "como_aplicarlo": "Una empresa eléctrica puede empezar por optimizar la programación de mantenimientos y despacho, donde el ahorro se mide directamente en costos de energía evitados.",
+  "actor": "NextEra Energy (con Santee Cooper como segundo caso)",
+  "nivel": "organizacion",
+  "industria": "emergentes",
+  "industria_detalle": "energía",
+  "modalidad": [
+   "datos"
+  ],
+  "paradigma": [
+   "predictiva"
+  ],
+  "madurez": "produccion",
+  "evidencia": "reportada",
+  "autonomia": "asistente",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "POWER Magazine",
+   "tipo": "medio",
+   "url": "https://www.powermag.com/nextera-santee-cooper-point-to-real-dollar-savings-from-ai-deployments/"
+  },
+  "fecha_publicacion": "2026-09-03",
+  "relevancia": 66,
+  "etiquetas": [
+   "energia",
+   "redes electricas",
+   "despacho",
+   "ahorro"
+  ],
+  "url": "https://www.powermag.com/nextera-santee-cooper-point-to-real-dollar-savings-from-ai-deployments/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "galicia-ia-deteccion-incendios-241-camaras",
+  "titulo": "Galicia integra IA en 241 cámaras para detectar humo de incendios forestales en minutos",
+  "resumen": "La Xunta de Galicia amplió en 2026 su red de videovigilancia forestal un 30%, hasta 241 cámaras en 111 puntos, e incorporó redes neuronales que detectan columnas de humo automáticamente dentro de su aplicación de gestión de incendios, con un moderador humano que filtra falsos positivos. El objetivo declarado es reducir de horas a minutos el tiempo entre ignición y detección, tras un 2025 con casi 120.000 hectáreas quemadas.",
+  "por_que_importa": "Muestra a un gobierno regional hispano adaptando la gestión de riesgo climático con IA sobre infraestructura que ya tenía, con supervisión humana en el circuito.",
+  "como_aplicarlo": "Una autoridad forestal o de protección civil puede entrenar detectores de humo con imágenes de sus propias cámaras e integrarlos a su sistema de despacho con validación humana.",
+  "actor": "Xunta de Galicia (Consellería do Medio Rural)",
+  "nivel": "gobierno",
+  "industria": "emergentes",
+  "industria_detalle": "clima y emergencias",
+  "modalidad": [
+   "vision"
+  ],
+  "paradigma": [
+   "predictiva"
+  ],
+  "madurez": "produccion",
+  "evidencia": "reportada",
+  "autonomia": "automatizacion",
+  "region": "europa",
+  "fuente": {
+   "nombre": "Euronews",
+   "tipo": "medio",
+   "url": "https://es.euronews.com/next/2026/07/24/galicia-apuesta-por-la-ia-y-los-satelites-para-prevenir-los-megaincendios-de-verano"
+  },
+  "fecha_publicacion": "2026-07-24",
+  "relevancia": 58,
+  "etiquetas": [
+   "incendios forestales",
+   "vision por computador",
+   "clima",
+   "espana"
+  ],
+  "url": "https://es.euronews.com/next/2026/07/24/galicia-apuesta-por-la-ia-y-los-satelites-para-prevenir-los-megaincendios-de-verano",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "mercadolibre-claude-code-23k-devs",
+  "titulo": "Mercado Libre: 23.000 desarrolladores con Claude Code y 40% del código escrito por IA",
+  "resumen": "Mercado Libre adoptó Claude Code en 2025 y hoy lo usan más de 23.000 desarrolladores para migraciones, revisión automática de código, generación de tests y el mantenimiento de unos 40.000 microservicios. Según el caso publicado, en 2025 cerca del 40% del código que llegó a producción lo escribió Claude con revisión humana, y en el segundo trimestre de 2026 el código fusionado creció más del 100% interanual y los despliegues casi un 75%.",
+  "por_que_importa": "Es el mayor caso latinoamericano documentado de un agente de código desplegado a escala de toda la ingeniería.",
+  "como_aplicarlo": "Empezar por tareas repetitivas y verificables (actualizar dependencias, migrar versiones, cubrir con tests) con revisión humana obligatoria antes de ampliar la autonomía.",
+  "actor": "Mercado Libre",
+  "nivel": "organizacion",
+  "industria": "productividad",
+  "herramienta": "claude-code",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "agentes",
+   "generativa"
+  ],
+  "madurez": "escala",
+  "evidencia": "reportada",
+  "autonomia": "agente",
+  "region": "latam",
+  "fuente": {
+   "nombre": "Claude (Anthropic) – caso de cliente",
+   "tipo": "frontier_lab",
+   "url": "https://claude.com/customers/mercado-libre"
+  },
+  "relevancia": 84,
+  "etiquetas": [
+   "migraciones",
+   "revision de codigo",
+   "latam",
+   "escala",
+   "fecha sin confirmar"
+  ],
+  "url": "https://claude.com/customers/mercado-libre",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda",
+  "industria_detalle": "desarrollo de software"
+ },
+ {
+  "id": "bun-zig-rust-claude-code",
+  "titulo": "Bun migra de Zig a Rust con Claude Code: un millón de líneas en menos de dos semanas",
+  "resumen": "Jarred Sumner, cofundador de Bun, usó Claude Code para portar Bun de Zig a Rust: se generó un millón de líneas en menos de dos semanas y el 100% de la batería de tests existente pasaba en CI antes del merge. Después del merge aparecieron 19 regresiones, ya corregidas, y Anthropic describe además a Mike Krieger portando un código Python a 165.000 líneas de TypeScript en un fin de semana.",
+  "por_que_importa": "Muestra que las migraciones de lenguaje, antes proyectos de varios años, pueden comprimirse en semanas si existe un buen conjunto de tests.",
+  "como_aplicarlo": "Antes de migrar, fijar los tests existentes como criterio de paridad y corregir el proceso (las reglas y el bucle de verificación), no los archivos uno a uno.",
+  "actor": "Jarred Sumner (Bun / Anthropic)",
+  "nivel": "individual",
+  "industria": "productividad",
+  "herramienta": "claude-code",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "agentes",
+   "generativa"
+  ],
+  "madurez": "produccion",
+  "evidencia": "medida",
+  "autonomia": "agente",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "Claude Blog – How Anthropic runs large-scale code migrations",
+   "tipo": "frontier_lab",
+   "url": "https://claude.com/blog/ai-code-migration"
+  },
+  "fecha_publicacion": "2026-07-16",
+  "relevancia": 80,
+  "etiquetas": [
+   "migraciones",
+   "rust",
+   "tests",
+   "open source"
+  ],
+  "url": "https://claude.com/blog/ai-code-migration",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda",
+  "industria_detalle": "desarrollo de software"
+ },
+ {
+  "id": "respiro-pm-no-tecnico-claude-code",
+  "titulo": "Un project manager sin saber programar lanza una app iOS con 15 subagentes de Claude Code",
+  "resumen": "Kostiantyn Vlasenko, project manager en Kiev sin experiencia previa en programación, construyó Respiro, una app de gestión del estrés, orquestando más de 15 subagentes especializados de Claude Code (arquitecto, desarrollador Swift, revisor). Pasó de la idea a una versión lista para la App Store en algo menos de seis semanas, reescribió el prototipo de React Native a Swift en pocas horas y la app ya tiene cientos de usuarios.",
+  "por_que_importa": "Ilustra cómo los agentes de código amplían quién puede crear y lanzar software.",
+  "como_aplicarlo": "Dividir el proyecto en roles y definir un subagente por rol, con uno dedicado a revisar el código, antes de pedir funcionalidades.",
+  "actor": "Kostiantyn Vlasenko",
+  "nivel": "individual",
+  "industria": "productividad",
+  "herramienta": "claude-code",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "agentes",
+   "generativa"
+  ],
+  "madurez": "produccion",
+  "evidencia": "anecdotica",
+  "autonomia": "agente",
+  "region": "europa",
+  "fuente": {
+   "nombre": "Claude Blog",
+   "tipo": "frontier_lab",
+   "url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks"
+  },
+  "fecha_publicacion": "2026-05-01",
+  "relevancia": 66,
+  "etiquetas": [
+   "no programadores",
+   "subagentes",
+   "app movil"
+  ],
+  "url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "cloudflare-kimi-agente-seguridad",
+  "titulo": "Cloudflare recorta un 77% el coste de su agente de revisión de seguridad con Kimi K2.5",
+  "resumen": "Cloudflare pasó a Kimi K2.5 en Workers AI un agente interno que revisa la seguridad de sus repositorios: procesa más de 7.000 millones de tokens al día y encontró más de 15 problemas confirmados en un solo código. Según sus cálculos, con un modelo propietario de gama media habría gastado 2,4 millones de dólares al año en ese único caso, y el cambio redujo el coste un 77%.",
+  "por_que_importa": "Con agentes que consumen tokens sin parar, el coste por token pasa a decidir qué se puede automatizar, y los modelos abiertos cambian esa cuenta.",
+  "como_aplicarlo": "Medir los tokens diarios de cada agente y probar un modelo abierto en las tareas de alto volumen, manteniendo un conjunto de casos para comparar la calidad.",
+  "actor": "Cloudflare",
+  "nivel": "organizacion",
+  "industria": "emergentes",
+  "herramienta": "kimi",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "agentes"
+  ],
+  "madurez": "produccion",
+  "evidencia": "medida",
+  "autonomia": "agente",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "Cloudflare Blog",
+   "tipo": "industria",
+   "url": "https://blog.cloudflare.com/workers-ai-large-models/"
+  },
+  "fecha_publicacion": "2026-03-19",
+  "relevancia": 78,
+  "etiquetas": [
+   "coste",
+   "modelos abiertos",
+   "seguridad"
+  ],
+  "url": "https://blog.cloudflare.com/workers-ai-large-models/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda",
+  "industria_detalle": "ciberseguridad"
+ },
+ {
+  "id": "csc-kimi-informes-fiduciarios",
+  "titulo": "CSC Financial integra un agente Kimi en 3 días y reduce un 67% el tiempo por informe",
+  "resumen": "La correduría china CSC Financial (中信建投证券) creó con Kimi un agente que genera borradores de informes temporales de gestión fiduciaria de bonos, conectado a sus sistemas internos mediante un 'gateway de evaluación de riesgos'. En el piloto, con más de 60 informes, la integración prevista para dos meses se completó en 3 días laborables y el trabajo manual por informe bajó de unos 30 a 10 minutos.",
+  "por_que_importa": "Es un ejemplo medido de un agente en un proceso financiero regulado con controles de cumplimiento explícitos.",
+  "como_aplicarlo": "Elegir un documento repetitivo y acotado, conectar el agente con trazabilidad y permisos por nivel de sensibilidad de los datos, y medir los minutos por documento antes y después.",
+  "actor": "CSC Financial (China Securities) con Moonshot AI",
+  "nivel": "organizacion",
+  "industria": "finanzas",
+  "herramienta": "kimi",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "agentes",
+   "generativa"
+  ],
+  "madurez": "piloto",
+  "evidencia": "medida",
+  "autonomia": "agente",
+  "region": "asia",
+  "fuente": {
+   "nombre": "Kimi – Noticias",
+   "tipo": "industria",
+   "url": "https://www.kimi.com/news/kimi-financial-industry-ai-solution"
+  },
+  "fecha_publicacion": "2026-09-17",
+  "relevancia": 72,
+  "etiquetas": [
+   "finanzas",
+   "cumplimiento",
+   "informes"
+  ],
+  "url": "https://www.kimi.com/news/kimi-financial-industry-ai-solution",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "cursor-composer-sobre-kimi",
+  "titulo": "Cursor construyó su modelo Composer 2 sobre los pesos abiertos de Kimi K2.5",
+  "resumen": "Cursor lanzó Composer 2 como modelo propio y, en pocas horas, un desarrollador descubrió que partía de Kimi K2.5, algo que la empresa confirmó: según Cursor, solo cerca de una cuarta parte del cómputo del modelo final vino de la base, y el resto de su preentrenamiento continuo y RL en sesiones reales. Moonshot avaló que el uso estaba cubierto por la licencia comercial a través de Fireworks AI.",
+  "por_que_importa": "Los pesos abiertos chinos ya sirven de base para productos de programación occidentales de primer nivel, con implicaciones de transparencia y licencia.",
+  "como_aplicarlo": "Si se ajusta un modelo abierto, documentar el modelo base y revisar las cláusulas de atribución de su licencia desde el lanzamiento.",
+  "actor": "Cursor (Anysphere)",
+  "nivel": "organizacion",
+  "industria": "productividad",
+  "herramienta": "kimi",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "generativa",
+   "agentes"
+  ],
+  "madurez": "escala",
+  "evidencia": "reportada",
+  "autonomia": "agente",
+  "region": "norteamerica",
+  "fuente": {
+   "nombre": "TechCrunch",
+   "tipo": "medio",
+   "url": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi"
+  },
+  "fecha_publicacion": "2026-03-22",
+  "relevancia": 74,
+  "etiquetas": [
+   "modelos abiertos",
+   "fine-tuning",
+   "licencias"
+  ],
+  "url": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda",
+  "industria_detalle": "desarrollo de software"
+ },
+ {
+  "id": "deepseek-diagnostico-multicentrico-jmir",
+  "titulo": "Estudio en 10 hospitales: DeepSeek-R1 acierta el 64% de diagnósticos pero cae ante ataques",
+  "resumen": "Un equipo liderado por el Peking Union Medical College Hospital evaluó 7 modelos con 50 historias clínicas reales de 10 hospitales. DeepSeek-R1 empató en cabeza con GPT-4o-reasoning (64% de diagnósticos correctos) y extrajo datos con un 97,7% de exactitud, pero en ataques adversarios simulados generó desinformación médica en el 98% de los casos.",
+  "por_que_importa": "DeepSeek ya está desplegado en muchos hospitales chinos, y este trabajo revisado por pares cuantifica su utilidad y también su fragilidad.",
+  "como_aplicarlo": "Antes de usar un LLM clínico, evaluarlo con historias reales propias y con pruebas de prompts adversarios, y añadir barreras independientes del modelo.",
+  "actor": "Peking Union Medical College Hospital y otros 9 hospitales",
+  "nivel": "organizacion",
+  "industria": "salud",
+  "herramienta": "deepseek",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "piloto",
+  "evidencia": "revisada",
+  "autonomia": "asistente",
+  "region": "asia",
+  "fuente": {
+   "nombre": "Journal of Medical Internet Research",
+   "tipo": "academia",
+   "url": "https://www.jmir.org/2026/1/e86746"
+  },
+  "fecha_publicacion": "2026-11-13",
+  "relevancia": 76,
+  "etiquetas": [
+   "salud",
+   "diagnostico",
+   "seguridad",
+   "evaluacion"
+  ],
+  "url": "https://www.jmir.org/2026/1/e86746",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "deepseek-historias-clinicas-intoxicaciones",
+  "titulo": "DeepSeek supera a médicos y GPT-5.1 en notas de ronda de 256 casos de intoxicación",
+  "resumen": "En el Hospital Taihe (Hubei), tres médicos sénior de urgencias evaluaron a ciegas las notas de ronda generadas por DeepSeek-V3.2-Exp y GPT-5.1 y las escritas por médicos, en 256 casos de intoxicación aguda. DeepSeek obtuvo la puntuación total media más alta (24,14 sobre 25, frente a 23,86 de los médicos y 23,30 de GPT-5.1), con un riesgo potencial de daño bajo en los tres grupos.",
+  "por_que_importa": "Aporta evidencia revisada de que un modelo abierto puede redactar documentación clínica de calidad comparable a la de un médico en un dominio concreto.",
+  "como_aplicarlo": "Usar el LLM para redactar el primer borrador de documentos clínicos estructurados y mantener la firma y la revisión del médico responsable.",
+  "actor": "Hospital Taihe, Universidad de Medicina de Hubei",
+  "nivel": "equipo",
+  "industria": "salud",
+  "herramienta": "deepseek",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "piloto",
+  "evidencia": "revisada",
+  "autonomia": "asistente",
+  "region": "asia",
+  "fuente": {
+   "nombre": "Journal of Medical Internet Research",
+   "tipo": "academia",
+   "url": "https://www.jmir.org/2026/1/e91222"
+  },
+  "fecha_publicacion": "2026-06-30",
+  "relevancia": 70,
+  "etiquetas": [
+   "salud",
+   "documentacion clinica",
+   "urgencias"
+  ],
+  "url": "https://www.jmir.org/2026/1/e91222",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "akita-deepclaude-deepseek-v4",
+  "titulo": "Fabio Akita lleva DeepSeek V4 Pro al nivel A de su benchmark dentro de Claude Code",
+  "resumen": "El desarrollador brasileño Fabio Akita, que compara más de 20 modelos construyendo una app Rails con el mismo encargo, desbloqueó DeepSeek V4 Pro con DeepClaude, un shim que conecta Claude Code al modelo. La puntuación subió de 69/100 (nivel B) a 89/100 (nivel A), con un coste de unos 3 dólares por ejecución, por detrás solo de Opus 4.7, GPT-5.4/5.5 y Kimi K2.6 en su ranking.",
+  "por_que_importa": "Muestra que el arnés de agente puede pesar tanto como el modelo, y que combinar la interfaz de Claude Code con un modelo barato es viable.",
+  "como_aplicarlo": "Antes de descartar un modelo abierto, probarlo en el mismo arnés que se usa a diario con un encargo de referencia y una rúbrica fija.",
+  "actor": "Fabio Akita (AkitaOnRails)",
+  "nivel": "individual",
+  "industria": "productividad",
+  "herramienta": "deepseek",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "agentes"
+  ],
+  "madurez": "senal",
+  "evidencia": "medida",
+  "autonomia": "agente",
+  "region": "latam",
+  "fuente": {
+   "nombre": "AkitaOnRails",
+   "tipo": "comunidad",
+   "url": "https://akitaonrails.com/en/2026/05/04/llm-benchmarks-deepseek-unlocked-deepclaude/"
+  },
+  "fecha_publicacion": "2026-05-04",
+  "relevancia": 58,
+  "etiquetas": [
+   "benchmark",
+   "coste",
+   "arnes de agentes"
+  ],
+  "url": "https://akitaonrails.com/en/2026/05/04/llm-benchmarks-deepseek-unlocked-deepclaude/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda",
+  "industria_detalle": "desarrollo de software"
+ },
+ {
+  "id": "metr-productividad-devs-2026",
+  "titulo": "METR: los desarrolladores ya no quieren trabajar sin IA y eso rompe su ensayo",
+  "resumen": "METR, que en 2025 midió que la IA hacía tardar un 19% más a desarrolladores open source expertos, repitió el ensayo con 57 desarrolladores desde agosto de 2025. Muchos se negaron a participar o a incluir tareas sin IA, y los datos brutos apuntan a una aceleración (−18% de tiempo en los repetidores y −4% en los nuevos, con intervalos amplios), por lo que METR rediseña el estudio.",
+  "por_que_importa": "El principal ensayo aleatorizado sobre productividad con agentes de código reconoce que la adopción masiva rompe el diseño experimental clásico.",
+  "como_aplicarlo": "Para medir el efecto de la IA en un equipo, combinar métricas de resultado (PRs, incidencias) con muestras de tareas en las que se haya prerregistrado cómo se usará la IA, y no fiarse de la velocidad autodeclarada.",
+  "actor": "METR",
+  "nivel": "individual",
+  "industria": "productividad",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "agentes",
+   "generativa"
+  ],
+  "madurez": "produccion",
+  "evidencia": "medida",
+  "autonomia": "agente",
+  "region": "global",
+  "fuente": {
+   "nombre": "METR",
+   "tipo": "academia",
+   "url": "https://metr.org/blog/2026-02-24-uplift-update/"
+  },
+  "fecha_publicacion": "2026-02-24",
+  "relevancia": 80,
+  "etiquetas": [
+   "productividad",
+   "ensayo aleatorizado",
+   "desarrolladores"
+  ],
+  "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "ia-reduce-brecha-educativa-rct",
+  "titulo": "La IA generativa cierra tres cuartas partes de la brecha de productividad por educación",
+  "resumen": "Guillermo Cruces, Sebastián Galiani, María Lombardi y coautores asignaron al azar un asistente de IA generativa a 1.174 adultos de 25 a 45 años que resolvían un problema de negocio con incentivos. Sin IA, los participantes con más estudios superaron a los de menos estudios en 0,548 desviaciones estándar; con IA, la brecha bajó a 0,139, y los de menos estudios conservaron parte de la mejora al trabajar después sin IA.",
+  "por_que_importa": "Sugiere que la IA puede funcionar como igualador de habilidades a nivel individual, no solo como multiplicador para los más formados.",
+  "como_aplicarlo": "En la formación y la incorporación de personal, priorizar el acceso guiado a asistentes de IA en los perfiles con menos formación, con ejercicios posteriores sin IA para consolidar lo aprendido.",
+  "actor": "Cruces, Fernández Meijide, Galiani, Gálvez y Lombardi (NBER / BID)",
+  "nivel": "individual",
+  "industria": "productividad",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "senal",
+  "evidencia": "medida",
+  "autonomia": "asistente",
+  "region": "global",
+  "fuente": {
+   "nombre": "NBER Working Paper 34851 (también BID IDB-WP-1839)",
+   "tipo": "academia",
+   "url": "https://www.nber.org/papers/w34851"
+  },
+  "fecha_publicacion": "2026-02-01",
+  "relevancia": 78,
+  "etiquetas": [
+   "desigualdad",
+   "ensayo aleatorizado",
+   "habilidades"
+  ],
+  "url": "https://www.nber.org/papers/w34851",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ },
+ {
+  "id": "creatividad-ia-metacognicion",
+  "titulo": "La IA solo mejora la creatividad de quien planifica y supervisa su propio pensamiento",
+  "resumen": "Un experimento de campo con 250 empleados de una consultora tecnológica china, que recibieron acceso a ChatGPT, encontró que supervisores y evaluadores externos los valoraban como más creativos solo si usaban mucho estrategias metacognitivas: planificar, monitorizar y ajustar su enfoque. Sin esos hábitos, la herramienta no aportó una mejora significativa (Journal of Applied Psychology).",
+  "por_que_importa": "Para la creatividad individual con IA, la manera de usarla importa más que tener acceso a ella.",
+  "como_aplicarlo": "Antes de pedir ideas a la IA, escribir el objetivo y los criterios, revisar cada respuesta frente a ellos y reformular el enfoque en lugar de aceptar la primera salida.",
+  "actor": "Sun, Li, Foo, Zhou y Lu (equipo académico)",
+  "nivel": "individual",
+  "industria": "productividad",
+  "modalidad": [
+   "texto"
+  ],
+  "paradigma": [
+   "generativa"
+  ],
+  "madurez": "piloto",
+  "evidencia": "revisada",
+  "autonomia": "asistente",
+  "region": "asia",
+  "fuente": {
+   "nombre": "PsyPost (sobre Journal of Applied Psychology)",
+   "tipo": "medio",
+   "url": "https://www.psypost.org/ai-boosts-worker-creativity-only-if-they-use-specific-thinking-strategies/"
+  },
+  "fecha_publicacion": "2026-02-12",
+  "relevancia": 66,
+  "etiquetas": [
+   "creatividad",
+   "metacognicion",
+   "experimento de campo"
+  ],
+  "url": "https://www.psypost.org/ai-boosts-worker-creativity-only-if-they-use-specific-thinking-strategies/",
+  "fecha_hallazgo": "2026-11-23T17:52:51Z",
+  "ciclo": "c-20261123-semilla",
+  "verificacion": "busqueda"
+ }
+]

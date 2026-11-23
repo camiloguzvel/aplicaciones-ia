@@ -1,0 +1,919 @@
+[
+ {
+  "id": "anthropic",
+  "nombre": "Anthropic: clientes y novedades",
+  "tipo": "frontier_lab",
+  "url": "https://www.anthropic.com/customers",
+  "dominio": "anthropic.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "productividad",
+   "finanzas",
+   "salud"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "claude-blog",
+  "nombre": "Claude: blog de producto",
+  "tipo": "frontier_lab",
+  "url": "https://claude.com/blog",
+  "dominio": "claude.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "productividad"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "openai",
+  "nombre": "OpenAI: historias de clientes",
+  "tipo": "frontier_lab",
+  "url": "https://openai.com/stories/",
+  "dominio": "openai.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "productividad",
+   "finanzas",
+   "salud"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "deepmind",
+  "nombre": "Google DeepMind: blog",
+  "tipo": "frontier_lab",
+  "url": "https://deepmind.google/discover/blog/",
+  "dominio": "deepmind.google",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "bio",
+   "salud",
+   "robotica"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "google-cloud-ai",
+  "nombre": "Google Cloud: blog de IA",
+  "tipo": "industria",
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning",
+  "dominio": "cloud.google.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "finanzas",
+   "salud",
+   "agro"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "microsoft-source",
+  "nombre": "Microsoft Source: historias de IA",
+  "tipo": "industria",
+  "url": "https://news.microsoft.com/source/",
+  "dominio": "news.microsoft.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "productividad",
+   "emergentes"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "aws-ml",
+  "nombre": "AWS Machine Learning Blog",
+  "tipo": "industria",
+  "url": "https://aws.amazon.com/blogs/machine-learning/",
+  "dominio": "aws.amazon.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "finanzas",
+   "salud",
+   "emergentes"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "nvidia-blog",
+  "nombre": "NVIDIA Blog",
+  "tipo": "industria",
+  "url": "https://blogs.nvidia.com/",
+  "dominio": "blogs.nvidia.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "robotica",
+   "salud",
+   "bio"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "meta-ai",
+  "nombre": "Meta AI: blog",
+  "tipo": "frontier_lab",
+  "url": "https://ai.meta.com/blog/",
+  "dominio": "ai.meta.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "mistral",
+  "nombre": "Mistral AI: noticias",
+  "tipo": "frontier_lab",
+  "url": "https://mistral.ai/news",
+  "dominio": "mistral.ai",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "deepseek",
+  "nombre": "DeepSeek: noticias de la API",
+  "tipo": "frontier_lab",
+  "url": "https://api-docs.deepseek.com/",
+  "dominio": "deepseek.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "productividad"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "kimi",
+  "nombre": "Kimi (Moonshot AI)",
+  "tipo": "frontier_lab",
+  "url": "https://www.kimi.com/",
+  "dominio": "kimi.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "productividad"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "moonshot-github",
+  "nombre": "Moonshot AI en GitHub",
+  "tipo": "comunidad",
+  "url": "https://github.com/MoonshotAI",
+  "dominio": "github.com/MoonshotAI",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "productividad"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "arxiv-ai",
+  "nombre": "arXiv: cs.AI recientes",
+  "tipo": "academia",
+  "url": "https://arxiv.org/list/cs.AI/recent",
+  "dominio": "arxiv.org",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "emergentes",
+   "productividad"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "hf-papers",
+  "nombre": "Hugging Face: papers del día",
+  "tipo": "comunidad",
+  "url": "https://huggingface.co/papers",
+  "dominio": "huggingface.co",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "bio",
+   "productividad"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "nature-mi",
+  "nombre": "Nature Machine Intelligence",
+  "tipo": "academia",
+  "url": "https://www.nature.com/natmachintell/",
+  "dominio": "nature.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "bio",
+   "salud",
+   "pharma"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "nejm-ai",
+  "nombre": "NEJM AI",
+  "tipo": "academia",
+  "url": "https://ai.nejm.org/",
+  "dominio": "nejm.org",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "salud"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "lancet-dh",
+  "nombre": "The Lancet Digital Health",
+  "tipo": "academia",
+  "url": "https://www.thelancet.com/journals/landig/home",
+  "dominio": "thelancet.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "salud"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "biorxiv",
+  "nombre": "bioRxiv",
+  "tipo": "academia",
+  "url": "https://www.biorxiv.org/",
+  "dominio": "biorxiv.org",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "bio",
+   "pharma"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "stanford-hai",
+  "nombre": "Stanford HAI: AI Index",
+  "tipo": "academia",
+  "url": "https://hai.stanford.edu/ai-index",
+  "dominio": "stanford.edu",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "mit-news-ai",
+  "nombre": "MIT News: inteligencia artificial",
+  "tipo": "academia",
+  "url": "https://news.mit.edu/topic/artificial-intelligence2",
+  "dominio": "mit.edu",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "robotica",
+   "bio",
+   "emergentes"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "cenia-ilia",
+  "nombre": "Índice Latinoamericano de IA (CENIA)",
+  "tipo": "academia",
+  "url": "https://indicelatam.cl/",
+  "dominio": "indicelatam.cl",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "oecd-ai",
+  "nombre": "OECD.AI: observatorio de políticas",
+  "tipo": "multilateral",
+  "url": "https://oecd.ai/",
+  "dominio": "oecd.ai",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "bid",
+  "nombre": "BID: transformación digital e IA",
+  "tipo": "multilateral",
+  "url": "https://www.iadb.org/es",
+  "dominio": "iadb.org",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes",
+   "agro",
+   "salud"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "cepal",
+  "nombre": "CEPAL: desarrollo digital",
+  "tipo": "multilateral",
+  "url": "https://www.cepal.org/es",
+  "dominio": "cepal.org",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "banco-mundial",
+  "nombre": "Banco Mundial: desarrollo digital",
+  "tipo": "multilateral",
+  "url": "https://www.worldbank.org/en/topic/digitaldevelopment",
+  "dominio": "worldbank.org",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "finanzas",
+   "agro"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "caf",
+  "nombre": "CAF: banco de desarrollo de América Latina",
+  "tipo": "multilateral",
+  "url": "https://www.caf.com/es/",
+  "dominio": "caf.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "unesco-ia",
+  "nombre": "UNESCO: inteligencia artificial",
+  "tipo": "multilateral",
+  "url": "https://www.unesco.org/es/artificial-intelligence",
+  "dominio": "unesco.org",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "oms-digital",
+  "nombre": "OMS: salud digital",
+  "tipo": "multilateral",
+  "url": "https://www.who.int/health-topics/digital-health",
+  "dominio": "who.int",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "salud"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "fao",
+  "nombre": "FAO: agricultura digital",
+  "tipo": "multilateral",
+  "url": "https://www.fao.org/home/es",
+  "dominio": "fao.org",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "agro"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "bis",
+  "nombre": "BIS Innovation Hub",
+  "tipo": "multilateral",
+  "url": "https://www.bis.org/about/bisih/",
+  "dominio": "bis.org",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "finanzas"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "imf",
+  "nombre": "FMI: IA y finanzas",
+  "tipo": "multilateral",
+  "url": "https://www.imf.org/en/Topics/fintech",
+  "dominio": "imf.org",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "finanzas"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "eu-ai-office",
+  "nombre": "Comisión Europea: AI Office",
+  "tipo": "gobierno",
+  "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+  "dominio": "europa.eu",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "govuk-ai",
+  "nombre": "GOV.UK: IA en el gobierno",
+  "tipo": "gobierno",
+  "url": "https://www.gov.uk/government/organisations/government-digital-service",
+  "dominio": "gov.uk",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "govtech-sg",
+  "nombre": "GovTech Singapur",
+  "tipo": "gobierno",
+  "url": "https://www.tech.gov.sg/",
+  "dominio": "tech.gov.sg",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "mintic",
+  "nombre": "MinTIC Colombia",
+  "tipo": "gobierno",
+  "url": "https://www.mintic.gov.co/",
+  "dominio": "mintic.gov.co",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "mckinsey-qb",
+  "nombre": "McKinsey QuantumBlack: análisis",
+  "tipo": "analista",
+  "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights",
+  "dominio": "mckinsey.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "finanzas",
+   "pharma",
+   "emergentes"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "a16z-ai",
+  "nombre": "a16z: IA",
+  "tipo": "analista",
+  "url": "https://a16z.com/ai/",
+  "dominio": "a16z.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "productividad",
+   "salud"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "epoch",
+  "nombre": "Epoch AI",
+  "tipo": "analista",
+  "url": "https://epoch.ai/",
+  "dominio": "epoch.ai",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "evident",
+  "nombre": "Evident AI Index (banca)",
+  "tipo": "analista",
+  "url": "https://evidentinsights.com/",
+  "dominio": "evidentinsights.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "finanzas"
+  ],
+  "cadencia": "quincenal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "finextra",
+  "nombre": "Finextra",
+  "tipo": "medio",
+  "url": "https://www.finextra.com/",
+  "dominio": "finextra.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "finanzas"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "fierce-biotech",
+  "nombre": "Fierce Biotech",
+  "tipo": "medio",
+  "url": "https://www.fiercebiotech.com/",
+  "dominio": "fiercebiotech.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "pharma",
+   "bio"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "endpoints",
+  "nombre": "Endpoints News",
+  "tipo": "medio",
+  "url": "https://endpts.com/",
+  "dominio": "endpts.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "pharma",
+   "bio"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "stat",
+  "nombre": "STAT News",
+  "tipo": "medio",
+  "url": "https://www.statnews.com/",
+  "dominio": "statnews.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "salud",
+   "pharma"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "agfunder",
+  "nombre": "AgFunderNews",
+  "tipo": "medio",
+  "url": "https://agfundernews.com/",
+  "dominio": "agfundernews.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "agro"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "robot-report",
+  "nombre": "The Robot Report",
+  "tipo": "medio",
+  "url": "https://www.therobotreport.com/",
+  "dominio": "therobotreport.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "robotica"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "ieee-spectrum",
+  "nombre": "IEEE Spectrum: robótica e IA",
+  "tipo": "medio",
+  "url": "https://spectrum.ieee.org/topic/robotics/",
+  "dominio": "spectrum.ieee.org",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "robotica"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "mit-tr",
+  "nombre": "MIT Technology Review",
+  "tipo": "medio",
+  "url": "https://www.technologyreview.com/",
+  "dominio": "technologyreview.com",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes",
+   "salud"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "the-batch",
+  "nombre": "The Batch (DeepLearning.AI)",
+  "tipo": "medio",
+  "url": "https://www.deeplearning.ai/the-batch/",
+  "dominio": "deeplearning.ai",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "rest-of-world",
+  "nombre": "Rest of World",
+  "tipo": "medio",
+  "url": "https://restofworld.org/",
+  "dominio": "restofworld.org",
+  "confiabilidad": "alta",
+  "estado": "activa",
+  "industrias": [
+   "emergentes",
+   "finanzas"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "xataka",
+  "nombre": "Xataka",
+  "tipo": "medio",
+  "url": "https://www.xataka.com/",
+  "dominio": "xataka.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "productividad"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "dplnews",
+  "nombre": "DPL News",
+  "tipo": "medio",
+  "url": "https://dplnews.com/",
+  "dominio": "dplnews.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "bloomberg-linea",
+  "nombre": "Bloomberg Línea: tecnología",
+  "tipo": "medio",
+  "url": "https://www.bloomberglinea.com/tecnologia/",
+  "dominio": "bloomberglinea.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "finanzas",
+   "agro"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "import-ai",
+  "nombre": "Import AI (Jack Clark)",
+  "tipo": "redes",
+  "url": "https://importai.substack.com/",
+  "dominio": "importai.substack.com",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "emergentes"
+  ],
+  "cadencia": "semanal",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "simon-willison",
+  "nombre": "Simon Willison: blog",
+  "tipo": "comunidad",
+  "url": "https://simonwillison.net/",
+  "dominio": "simonwillison.net",
+  "confiabilidad": "media",
+  "estado": "activa",
+  "industrias": [
+   "productividad"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "hacker-news",
+  "nombre": "Hacker News",
+  "tipo": "comunidad",
+  "url": "https://news.ycombinator.com/",
+  "dominio": "news.ycombinator.com",
+  "confiabilidad": "baja",
+  "estado": "activa",
+  "industrias": [
+   "productividad"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "github-trending",
+  "nombre": "GitHub Trending",
+  "tipo": "comunidad",
+  "url": "https://github.com/trending",
+  "dominio": "github.com",
+  "confiabilidad": "baja",
+  "estado": "activa",
+  "industrias": [
+   "productividad"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "r-claudeai",
+  "nombre": "Reddit r/ClaudeAI",
+  "tipo": "redes",
+  "url": "https://www.reddit.com/r/ClaudeAI/",
+  "dominio": "reddit.com",
+  "confiabilidad": "baja",
+  "estado": "activa",
+  "industrias": [
+   "productividad"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ },
+ {
+  "id": "r-localllama",
+  "nombre": "Reddit r/LocalLLaMA",
+  "tipo": "redes",
+  "url": "https://www.reddit.com/r/LocalLLaMA/",
+  "dominio": "reddit.com",
+  "confiabilidad": "baja",
+  "estado": "activa",
+  "industrias": [
+   "productividad"
+  ],
+  "cadencia": "diaria",
+  "agregada": "2026-11-23",
+  "origen": "semilla"
+ }
+]

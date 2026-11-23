@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "dimensiones": {
+    "nivel": {
+      "individual": "Individual",
+      "equipo": "Equipo",
+      "organizacion": "Organización",
+      "gobierno": "Gobierno"
+    },
+    "industria": {
+      "finanzas": "Finanzas",
+      "pharma": "Pharma",
+      "bio": "Bio",
+      "salud": "Salud",
+      "agro": "Agro",
+      "robotica": "Robótica",
+      "productividad": "Productividad",
+      "emergentes": "Emergentes"
+    },
+    "modalidad": {
+      "texto": "Texto",
+      "vision": "Visión",
+      "audio": "Audio y voz",
+      "multimodal": "Multimodal",
+      "datos": "Datos estructurados",
+      "accion_fisica": "Acción física"
+    },
+    "paradigma": {
+      "generativa": "Generativa",
+      "predictiva": "Predictiva",
+      "agentes": "Agentes",
+      "cientifica": "Modelos científicos"
+    },
+    "madurez": {
+      "senal": "Señal",
+      "piloto": "Piloto",
+      "produccion": "Producción",
+      "escala": "Escala"
+    },
+    "evidencia": {
+      "anecdotica": "Anecdótica",
+      "reportada": "Reportada",
+      "medida": "Medida",
+      "revisada": "Revisada por pares"
+    },
+    "autonomia": {
+      "asistente": "Asistente",
+      "automatizacion": "Automatización",
+      "agente": "Agente autónomo"
+    },
+    "region": {
+      "global": "Global",
+      "norteamerica": "Norteamérica",
+      "latam": "América Latina",
+      "europa": "Europa",
+      "asia": "Asia",
+      "medio_oriente": "Medio Oriente",
+      "africa": "África",
+      "oceania": "Oceanía"
+    },
+    "fuente": {
+      "industria": "Industria",
+      "academia": "Academia",
+      "redes": "Redes sociales",
+      "multilateral": "Multilaterales",
+      "frontier_lab": "Frontier labs",
+      "gobierno": "Gobierno",
+      "comunidad": "Comunidades dev",
+      "medio": "Medios especializados",
+      "analista": "Analistas y VC"
+    },
+    "herramienta": {
+      "claude-code": "Claude Code",
+      "kimi": "Kimi",
+      "deepseek": "DeepSeek"
+    }
+  },
+  "fronteras": {
+    "pharma": "Descubrimiento y desarrollo de fármacos, ensayos clínicos, regulatorio farmacéutico.",
+    "bio": "Proteínas, genómica, biología sintética, investigación biológica básica.",
+    "salud": "Atención clínica, diagnóstico, operación hospitalaria, salud pública.",
+    "productividad": "Productividad y creatividad individual o de equipos de conocimiento, fuera de una industria específica.",
+    "emergentes": "Cualquier otra industria (educación, energía, legal, manufactura, clima…). Indicar en industria_detalle.",
+    "gobierno": "Nivel de observación: el gobierno como usuario de IA. La regulación es una etiqueta, no un hallazgo por sí sola."
+  },
+  "relevancia": {
+    "formula": "novedad (0-25) + evidencia (0-20) + impacto (0-25) + transferibilidad (0-15) + credibilidad de la fuente (0-15)",
+    "guia": "85 o más solo para casos excepcionales; 60-84 caso sólido; 40-59 señal interesante; menos de 40 no se publica."
+  },
+  "esquema_hallazgo": {
+    "id": "slug único en minúsculas con guiones (máx. 60)",
+    "titulo": "máx. 90 caracteres",
+    "resumen": "2-3 frases: quién, qué IA, para qué, con qué resultado",
+    "por_que_importa": "una frase",
+    "como_aplicarlo": "una frase práctica",
+    "actor": "organización o persona",
+    "nivel": "clave de nivel",
+    "industria": "clave de industria",
+    "industria_detalle": "opcional; obligatorio si industria = emergentes",
+    "herramienta": "opcional; clave de herramienta",
+    "modalidad": ["claves de modalidad"],
+    "paradigma": ["claves de paradigma"],
+    "madurez": "clave de madurez",
+    "evidencia": "clave de evidencia",
+    "autonomia": "clave de autonomía",
+    "region": "clave de región",
+    "fuente": { "nombre": "texto", "tipo": "clave de tipo de fuente", "url": "https://..." },
+    "url": "igual a fuente.url (para consultas de deduplicación)",
+    "fecha_publicacion": "AAAA-MM-DD",
+    "fecha_hallazgo": "ISO 8601 UTC del ciclo que lo registró",
+    "ciclo": "id del ciclo",
+    "verificacion": "pagina | busqueda",
+    "relevancia": "0-100",
+    "etiquetas": ["2-4 etiquetas en minúscula"]
+  }
+}
