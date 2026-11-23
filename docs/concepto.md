@@ -82,6 +82,7 @@ Desde cualquier hallazgo puedes **Guardar** o marcar **No relevante**. Esas marc
 - Los hallazgos viven en la **base del artefacto** (capacidad `db`). Los ciclos agregan registros sin republicar la página y todos los dispositivos ven lo mismo en vivo.
 - El **repositorio** guarda el código de la página, la taxonomía, las fuentes semilla y los prompts de los agentes, todo versionado.
 - El diseño parte del sistema **Alto Lab**: Bodoni Moda itálica para la voz editorial, Space Grotesk para la interfaz, papel y azul noche, el naranja Señal como único acento y esquinas rectas.
+- Sobre esa base se aplica **Liquid Glass** de forma sobria, solo en la capa que flota sobre el contenido: barra inferior en cápsula, rail lateral, cabecera, hojas de detalle y filtros, buscador, chips y botones. Las tarjetas, filetes, pips y tablas del contenido conservan las esquinas rectas y el trazo plano de Alto Lab. Si el sistema pide reducir la transparencia, o el navegador no soporta desenfoque, el vidrio pasa a ser opaco.
 
 ### Modelo de datos
 
